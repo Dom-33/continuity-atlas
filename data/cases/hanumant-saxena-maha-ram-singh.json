@@ -1,0 +1,552 @@
+{
+  "id": "hanumant-saxena-maha-ram-singh",
+  "status": "validated",
+  "reviewedAt": "2026-09-13T19:31:33.477Z",
+  "model": "gpt-6-astra",
+  "reviewNote": "Candidate exported from the Continuity Atlas review interface; commit only after human review.",
+  "analysis": {
+    "caseTitle": "Hanumant Saxena / Maha Ram Singh",
+    "summary": "A retrospectively investigated childhood identity claim with a photographed chest mark and reported postmortem correspondence. The physical evidence merits scrutiny, but the proposed identity circulated before the child's statements, creating substantial contamination risk. Continuity is not established.",
+    "evidence": [
+      {
+        "label": "Chronology",
+        "value": "Stevenson dates Maha Ram's shooting to September 28, 1954, and Hanumant's birth to 1955 in Uttar Pradesh. Statements reportedly began around age three, approximately 1958. Exact birth and onset dates remain unestablished.",
+        "status": "reported"
+      },
+      {
+        "label": "Documentation timing",
+        "value": "Stevenson learned of the case in 1964, investigated in 1971–72, and returned with Satwant Pasricha in 1979. No contemporaneous childhood statement record was located.",
+        "status": "documented"
+      },
+      {
+        "label": "Concrete claims",
+        "value": "Hanumant reportedly identified himself as Maha Ram, indicated his chest as the shooting site, and recognized Maha Ram's wife, house and bullocks.",
+        "status": "reported"
+      },
+      {
+        "label": "Contamination before statements",
+        "value": "The families lived about 250 metres apart. His parents knew Maha Ram; his mother viewed the corpse and reported a preconception announcing dream. A headman recalled villagers assigning the identity before Hanumant spoke about it.",
+        "status": "reported"
+      },
+      {
+        "label": "Physical trait",
+        "value": "Stevenson's 1993 paper reproduces a photograph of the irregular hypopigmented chest mark. This documents its later appearance, not independently its presence at birth.",
+        "status": "documented"
+      },
+      {
+        "label": "Medical correspondence and verification",
+        "value": "The paper presents a wound diagram derived from Maha Ram's postmortem report. Stevenson later states that the physician mapping the wounds did not know the mark's location. The original autopsy was not independently authenticated in this review.",
+        "status": "documented"
+      },
+      {
+        "label": "Errors and witnesses",
+        "value": "One son rejected the claim after Hanumant failed to recognize him; the wife declined participation. Parents, another son and a former headman supported it. Maha Ram's mother died before investigation.",
+        "status": "reported"
+      },
+      {
+        "label": "Affect, preferences and abilities",
+        "value": "Affection for Maha Ram's mother and visits to his home were reported. No tested unusual ability, xenoglossy or specific phobia was established in the consulted summaries.",
+        "status": "reported"
+      },
+      {
+        "label": "Pain and time course",
+        "value": "Parents recalled childhood chest pain; Hanumant denied it but reported intermittent pain from about fourteen. Statements reportedly stopped at five or six, visits continued until ten, and memories were absent by investigation.",
+        "status": "reported"
+      }
+    ],
+    "conventional": {
+      "title": "H0 — Ordinary development, information transfer and retrospective reconstruction",
+      "assessment": "The most economical working explanation is a pre-existing mark interpreted through a familiar death, followed by socially reinforced identification. This is an inference, not a demonstrated reconstruction.",
+      "support": [
+        "Prior identity assignment makes later statements poor tests of inaccessible knowledge.",
+        "Bullocks were outside the deceased's house, limiting recognition specificity; investigation followed years after the statements ceased."
+      ],
+      "limits": [
+        "No particular transmission episode or deliberate fabrication was established.",
+        "The mark's origin and the chance frequency of comparable wound–mark matches remain unresolved; an ordinary explanation need not explain them by suggestion."
+      ]
+    },
+    "continuity": {
+      "title": "H1 — Possible continuity across lives",
+      "assessment": "The physical correspondence is the principal residual observation, but does not establish a causal connection between the two lives.",
+      "support": [
+        "A published photograph and medically derived wound diagram provide more substance than testimony alone.",
+        "Reported masking of the physician reduces one opportunity to tailor the wound diagram to the mark."
+      ],
+      "limits": [
+        "That safeguard does not control target selection, childhood information exposure or retrospective testimony.",
+        "No prospectively recorded, inaccessible fact or controlled recognition result was located; no complete inventory permits a reliable hit–error rate.",
+        "Anatomical correspondence cannot by itself distinguish continuity from coincidence plus subsequent identity construction."
+      ]
+    },
+    "scores": {
+      "informationStrength": 2,
+      "sourceQuality": 3,
+      "lowContamination": 0,
+      "anomalyStrength": 1,
+      "total": 6
+    },
+    "patterns": [
+      "Comparison with the supplied Leininger case highlights the same methodological distinction: corroborating a deceased person's history does not establish the child's information provenance. This is a limited comparison, not evidence of a general continuity pattern."
+    ],
+    "nextHypothesis": "Test whether any specific statement demonstrably preceded access: obtain original interview notes, the earliest case notification, the complete claim inventory, dated photographs and the authenticated autopsy. Separately assess wound–mark similarity using blinded raters and unrelated comparison diagrams.",
+    "uncertainty": "The accessible record cannot decisively discriminate H0 from H1. Research located investigator publications and medical-derived illustrations, but not independently authenticated original records or prospective childhood documentation. Scores rank evidential strength, not reincarnation probability; 6/20 reflects especially poor contamination control.",
+    "provenance": [
+      {
+        "title": "med.virginia.edu",
+        "url": "https://med.virginia.edu/perceptual-studies/wp-content/uploads/sites/360/2016/12/STE39stevenson-1.pdf",
+        "domain": "med.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "pearl-hifi.com",
+        "url": "https://pearl-hifi.com/11_Spirited_Growth/01_Books/01_PLR_Lit/Stevenson_2016_Children_Who_Remember_Previous_Lives__A_Question_of_Reincarnation_496pgs..pdf",
+        "domain": "pearl-hifi.com",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "pdfcoffee.com",
+        "url": "https://pdfcoffee.com/ian-stevenson-where-reincarnation-and-biology-intersect-pdf-free.html",
+        "domain": "pdfcoffee.com",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "sciencedirect.com",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1550830722001616",
+        "domain": "sciencedirect.com",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "researchgate.net",
+        "url": "https://www.researchgate.net/publication/329247988_Is_Consciousness_Transfer_Involved_in_Reincarnation_Type_cases",
+        "domain": "researchgate.net",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "mimetra.com",
+        "url": "https://mimetra.com/id/blog/understanding-of-reality/chapter-3/",
+        "domain": "mimetra.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "mimetra.com",
+        "url": "https://mimetra.com/ms/blog/understanding-of-reality/chapter-3/",
+        "domain": "mimetra.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "slideplayer.com",
+        "url": "https://slideplayer.com/slide/9483971/",
+        "domain": "slideplayer.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "hercolano2.blogspot.com",
+        "url": "https://hercolano2.blogspot.com/2012/05/ian-stevenson-reincarnation-biology_2524.html",
+        "domain": "hercolano2.blogspot.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Akhil_Bharatiya_Kshatriya_Mahasabha",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Satguru_Ram_Singh",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "harnarayan-saxena.org",
+        "url": "https://www.harnarayan-saxena.org/home.html",
+        "domain": "harnarayan-saxena.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "navbharattimes.indiatimes.com",
+        "url": "https://navbharattimes.indiatimes.com/state/rajasthan/tonk/tonk-child-kanharam-bairwa-reincarnation-of-jaipur-king-sawai-man-singh-update-fact-check/articleshow/130348548.cms",
+        "domain": "navbharattimes.indiatimes.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Hanumant_Singh_of_Kalakankar",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Kishori_Shahane",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "open-data.spr.ac.uk",
+        "url": "https://open-data.spr.ac.uk/articles/bb-saxena-reincarnation-case/",
+        "domain": "open-data.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "harnarayan-saxena.org",
+        "url": "https://www.harnarayan-saxena.org/",
+        "domain": "harnarayan-saxena.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/1985_Madhya_Pradesh_Legislative_Assembly_election",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Maha_Singh_Rao",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "open-data.spr.ac.uk",
+        "url": "https://open-data.spr.ac.uk/sites/default/files/ebook/article/bb_saxena_reincarnation_case-871.pdf",
+        "domain": "open-data.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "open-data.spr.ac.uk",
+        "url": "https://open-data.spr.ac.uk/articles/sunil-dutt-saxena-reincarnation-case/",
+        "domain": "open-data.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "psi-encyclopedia.spr.ac.uk",
+        "url": "https://psi-encyclopedia.spr.ac.uk/sites/default/files/ebook/article/sunil_dutt_saxena_reincarnation_case-178.pdf",
+        "domain": "psi-encyclopedia.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "hercolano2.blogspot.com",
+        "url": "https://hercolano2.blogspot.com/2012/05/ian-stevenson-reincarnation-biology_5084.html",
+        "domain": "hercolano2.blogspot.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "ecosophia.net",
+        "url": "https://ecosophia.net/august-2018-open-post/",
+        "domain": "ecosophia.net",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "booktopia.com.au",
+        "url": "https://www.booktopia.com.au/science-the-self-and-survival-after-death-emily-williams-kelly/book/9781442221147.html",
+        "domain": "booktopia.com.au",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "carlossalvarado.wordpress.com",
+        "url": "https://carlossalvarado.wordpress.com/2014/01/24/the-work-of-ian-stevenson/",
+        "domain": "carlossalvarado.wordpress.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "kriso.ee",
+        "url": "https://www.kriso.ee/science-self-survival-after-death-selected-db-97814422211546e.html",
+        "domain": "kriso.ee",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "mimetra.com",
+        "url": "https://mimetra.com/blog/understanding-of-reality/chapter-3/",
+        "domain": "mimetra.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "endohuasca.com",
+        "url": "https://www.endohuasca.com/p/mystery-of-memory-and-terrence-howard",
+        "domain": "endohuasca.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "lib.wildla.in",
+        "url": "https://lib.wildla.in/book/Mind%20in%20Balance.%20Meditation%20in%20Science%2C%20Buddhism%2C%20and%20Christianity.pdf",
+        "domain": "lib.wildla.in",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "carlossalvarado.wordpress.com",
+        "url": "https://carlossalvarado.wordpress.com/2014/01/",
+        "domain": "carlossalvarado.wordpress.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Hanumant_Singh_%28roboticist%29",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "deslaw.edu.in",
+        "url": "https://www.deslaw.edu.in/pdf/Profile_HanumantDodake.pdf",
+        "domain": "deslaw.edu.in",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "infomerics.com",
+        "url": "https://www.infomerics.com/admin/uploads/pr-sai-hanumant-industries-aug12-2021.pdf",
+        "domain": "infomerics.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "player.uacdn.net",
+        "url": "https://player.uacdn.net/slides_pdf/WWHX1LX65NNQVG7PV4XY/_____with_anno.pdf",
+        "domain": "player.uacdn.net",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "theosophicalsociety.org.au",
+        "url": "https://theosophicalsociety.org.au/union_index/entries/53374",
+        "domain": "theosophicalsociety.org.au",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "sooperkanoon.com",
+        "url": "https://sooperkanoon.com/case/createfile/489851/tp%3Apd",
+        "domain": "sooperkanoon.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "iiseindia.co.in",
+        "url": "https://www.iiseindia.co.in/pdf/MANDATORY_PGDM/mba_mandatory_disclosure-2022.pdf",
+        "domain": "iiseindia.co.in",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "jamesgmatlock.com",
+        "url": "https://jamesgmatlock.com/wp-content/uploads/2024/06/Matlock-2024-Birthmarks-and-birth-defects-in-the-head-and-neck-region.pdf",
+        "domain": "jamesgmatlock.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "cricketarchive.com",
+        "url": "https://cricketarchive.com/Grounds/1043/f_Centuries.html",
+        "domain": "cricketarchive.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "books.google.com",
+        "url": "https://books.google.com/books/about/Human_Malformations_and_Related_Anomalie.html?id=MrBqAAAAMAAJ",
+        "domain": "books.google.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "pt.wikipedia.org",
+        "url": "https://pt.wikipedia.org/wiki/Ian_Stevenson",
+        "domain": "pt.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "open-data.spr.ac.uk",
+        "url": "https://open-data.spr.ac.uk/sites/default/files/ebook/article/birthmarks_in_reincarnation_cases-250.pdf",
+        "domain": "open-data.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "hercolano2.blogspot.com",
+        "url": "https://hercolano2.blogspot.com/2012/05/ian-stevenson-reincarnation-biology_5480.html",
+        "domain": "hercolano2.blogspot.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Ian_Stevenson",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "jamesgmatlock.com",
+        "url": "https://jamesgmatlock.com/wp-content/uploads/2023/04/Matlock-2022-Congenital-physical-anomalies.pdf",
+        "domain": "jamesgmatlock.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Where_Reincarnation_and_Biology_Intersect",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "casemine.com",
+        "url": "https://www.casemine.com/search/in/subhash%2Bchandra%2Bsaxena",
+        "domain": "casemine.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "es.wikipedia.org",
+        "url": "https://es.wikipedia.org/wiki/Ian_Stevenson",
+        "domain": "es.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "open-data.spr.ac.uk",
+        "url": "https://open-data.spr.ac.uk/articles/birthmarks-reincarnation-cases/",
+        "domain": "open-data.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "casemine.com",
+        "url": "https://www.casemine.com/judgement/in/5608eaf2e4b01497111175f1",
+        "domain": "casemine.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "fr.wikipedia.org",
+        "url": "https://fr.wikipedia.org/wiki/Ian_Stevenson",
+        "domain": "fr.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "ru.wikipedia.org",
+        "url": "https://ru.wikipedia.org/wiki/%D0%98%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_%D1%80%D0%B5%D0%B8%D0%BD%D0%BA%D0%B0%D1%80%D0%BD%D0%B0%D1%86%D0%B8%D0%B9",
+        "domain": "ru.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "scribd.com",
+        "url": "https://www.scribd.com/document/621978544/Children-Who-Remember-Previous-Lives-Ian-Stevenson-M-D",
+        "domain": "scribd.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "scribd.com",
+        "url": "https://www.scribd.com/document/310973191/Reincarnation-Cases-Along-With-Names-of-Reference-Files",
+        "domain": "scribd.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/Sikh/comments/1psf101/maha_ramayan_natak_project/",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/Sikh/comments/1kvquzg",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "scribd.com",
+        "url": "https://www.scribd.com/doc/36464062/Ian-Stevenson-Where-Reincarnation-and-Biology-Intersect",
+        "domain": "scribd.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/pastlives/comments/1ow0kon",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/Reincarnation/comments/1ow0lxs/birthmarks_and_birth_defects_corresponding_to/",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/Reincarnation/comments/13rkqor",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/spirituality/comments/dsfu9v",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/pastlives/comments/1vrdpi9/birth_mark_question/",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/Reincarnation/comments/14w6mfq",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/Reincarnation/comments/lfrpj4",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      }
+    ]
+  }
+}
