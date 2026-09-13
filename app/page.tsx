@@ -1,8 +1,8 @@
 "use client";
 
-import { FormEvent, useState } from "react";
+import { useState, type FormEvent } from "react";
 import type { AnalysisResult, EvidenceStatus } from "@/lib/schema";
-import styles from "./page.module.css";
+import styles from "./continuity.module.css";
 
 const statusLabel: Record<EvidenceStatus, string> = {
   verified: "Verified fact",
