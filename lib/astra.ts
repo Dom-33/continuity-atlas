@@ -1,4 +1,4 @@
-import type { AnalysisResult } from "@/lib/schema";
+import type { AnalysisResult, SourceRef } from "@/lib/schema";
 
 const responseSchema = {
   type: "object",
@@ -13,7 +13,6 @@ const responseSchema = {
     "patterns",
     "nextHypothesis",
     "uncertainty",
-    "provenance",
   ],
   properties: {
     caseTitle: { type: "string" },
@@ -31,7 +30,7 @@ const responseSchema = {
           value: { type: "string" },
           status: {
             type: "string",
-            enum: ["verified", "reported", "interpreted", "unknown"],
+            enum: ["documented", "reported", "interpreted", "unknown"],
           },
         },
       },
@@ -79,10 +78,10 @@ const responseSchema = {
     patterns: { type: "array", items: { type: "string" } },
     nextHypothesis: { type: "string" },
     uncertainty: { type: "string" },
-    provenance: { type: "array", items: { type: "string" } },
   },
 } as const;
 
+type ModelAnalysis = Omit<AnalysisResult, "provenance">;
 type ResponseContent = { type?: string; text?: string };
 type ResponseOutputItem = {
   type?: string;
@@ -104,16 +103,57 @@ function extractOutputText(response: ResponsesApiResult): string | null {
   return null;
 }
 
-function extractSearchSources(response: ResponsesApiResult): string[] {
-  const sources: string[] = [];
+function extractSearchSources(response: ResponsesApiResult): SourceRef[] {
+  const byUrl = new Map<string, SourceRef>();
   for (const item of response.output ?? []) {
     for (const source of item.action?.sources ?? []) {
-      if (source.url) {
-        sources.push(source.title ? `${source.title} — ${source.url}` : source.url);
-      }
+      if (!source.url) continue;
+      byUrl.set(source.url, {
+        title: source.title?.trim() || new URL(source.url).hostname,
+        url: source.url,
+      });
     }
   }
-  return [...new Set(sources)];
+  return [...byUrl.values()];
+}
+
+function cleanText(value: string): string {
+  return value
+    .replace(/\[([^\]]+)\]\(https?:\/\/[^)]+\)/g, "$1")
+    .replace(/\s*\(https?:\/\/[^)]+\)/g, "")
+    .replace(/\s+https?:\/\/\S+/g, "")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+}
+
+function cleanAnalysis(result: ModelAnalysis): ModelAnalysis {
+  return {
+    ...result,
+    caseTitle: cleanText(result.caseTitle),
+    summary: cleanText(result.summary),
+    evidence: result.evidence.map((item) => ({
+      ...item,
+      label: cleanText(item.label),
+      value: cleanText(item.value),
+    })),
+    conventional: {
+      ...result.conventional,
+      title: cleanText(result.conventional.title),
+      assessment: cleanText(result.conventional.assessment),
+      support: result.conventional.support.map(cleanText),
+      limits: result.conventional.limits.map(cleanText),
+    },
+    continuity: {
+      ...result.continuity,
+      title: cleanText(result.continuity.title),
+      assessment: cleanText(result.continuity.assessment),
+      support: result.continuity.support.map(cleanText),
+      limits: result.continuity.limits.map(cleanText),
+    },
+    patterns: result.patterns.map(cleanText),
+    nextHypothesis: cleanText(result.nextHypothesis),
+    uncertainty: cleanText(result.uncertainty),
+  };
 }
 
 export async function analyseWithAstra(query: string): Promise<AnalysisResult> {
@@ -122,9 +162,9 @@ export async function analyseWithAstra(query: string): Promise<AnalysisResult> {
     throw new Error("OPENAI_API_KEY is not configured on the server.");
   }
 
-  const instructions = `You are the research engine for Continuity Atlas. Investigate publicly documented claims about possible continuity across lives without assuming that reincarnation exists. Use web research and distinguish verified facts, reported claims, interpretations, and unknowns. Prefer primary, academic, institutional, or well-documented sources; use weaker sources only when necessary and mark their limitations. Check chronology and possible information contamination. Evaluate conventional explanations first, then evaluate the continuity hypothesis using the same evidence. Do not convert correlation into causation. The score ranks evidential strength, not truth of reincarnation. If evidence cannot discriminate between hypotheses, state that explicitly. For a single case, do not pretend that true cross-case patterns have already been established.`;
+  const instructions = `You are the research engine for Continuity Atlas. Investigate publicly documented claims about possible continuity across lives without assuming that reincarnation exists. Use web research and preserve epistemic distinctions. Evidence status meanings: documented = supported by an identifiable documentary source, but not automatically independently verified; reported = attributed testimony or claim; interpreted = inference or analytical judgment; unknown = not established from available evidence. If a fact is independently verified, say that explicitly in the value rather than treating all documented material as independent verification. Prefer primary, academic, institutional, archival, or well-documented sources; use weaker sources only when necessary and mark their limitations. Check chronology and possible information contamination. Evaluate conventional explanations first, then evaluate the continuity hypothesis using the same evidence. Do not convert correlation into causation. The score ranks evidential strength, not truth of reincarnation. If evidence cannot discriminate between hypotheses, state that explicitly. For a single case, do not claim that a true cross-case pattern has been established. Do not include URLs, markdown links, or citation markers inside any text field; source links are handled separately by the application.`;
 
-  const input = `Research this public case or source: ${query}\n\nReturn a concise but substantive case analysis. Evidence Map items should emphasize the most decision-relevant facts for the 43-variable Continuity Atlas research schema: chronology, concrete claims, independent verification, errors, affect/phobias/preferences, abilities, physical traits, documentation timing, witnesses, contamination channels, and time course. Score information strength, source quality, low contamination, and residual anomaly from 0 to 5; total must equal their sum. The provenance field should name the most important sources used.`;
+  const input = `Research this public case or source: ${query}\n\nReturn a concise but substantive case analysis. Evidence Map items should emphasize the most decision-relevant facts for the 43-variable Continuity Atlas research schema: chronology, concrete claims, independent verification, errors, affect/phobias/preferences, abilities, physical traits, documentation timing, witnesses, contamination channels, and time course. For both H0 and H1, provide a short assessment plus concrete support points and explicit limits. Score information strength, source quality, low contamination, and residual anomaly from 0 to 5; total must equal their sum.`;
 
   const response = await fetch("https://api.openai.com/v1/responses", {
     method: "POST",
@@ -163,17 +203,15 @@ export async function analyseWithAstra(query: string): Promise<AnalysisResult> {
     throw new Error("Astra returned no structured analysis text.");
   }
 
-  const result = JSON.parse(outputText) as AnalysisResult;
+  const result = cleanAnalysis(JSON.parse(outputText) as ModelAnalysis);
   result.scores.total =
     result.scores.informationStrength +
     result.scores.sourceQuality +
     result.scores.lowContamination +
     result.scores.anomalyStrength;
 
-  const searchedSources = extractSearchSources(payload);
-  if (searchedSources.length) {
-    result.provenance = [...new Set([...result.provenance, ...searchedSources])];
-  }
-
-  return result;
+  return {
+    ...result,
+    provenance: extractSearchSources(payload),
+  };
 }
