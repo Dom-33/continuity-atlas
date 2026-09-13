@@ -43,3 +43,12 @@ export type AnalysisResult = {
   uncertainty: string;
   provenance: SourceRef[];
 };
+
+export type ValidatedCaseRecord = {
+  id: string;
+  status: "validated";
+  reviewedAt: string;
+  model: string;
+  reviewNote: string;
+  analysis: AnalysisResult;
+};
