@@ -21,9 +21,14 @@ export type ScoreProfile = {
   total: number;
 };
 
+export type SourceTier = "primary" | "academic" | "secondary" | "weak";
+
 export type SourceRef = {
   title: string;
   url: string;
+  domain: string;
+  tier: SourceTier;
+  usedInAnalysis: boolean;
 };
 
 export type AnalysisResult = {
