@@ -1,4 +1,4 @@
-import type { AnalysisResult, SourceRef } from "@/lib/schema";
+import type { AnalysisResult, SourceRef, SourceTier } from "@/lib/schema";
 
 const responseSchema = {
   type: "object",
@@ -103,18 +103,101 @@ function extractOutputText(response: ResponsesApiResult): string | null {
   return null;
 }
 
-function extractSearchSources(response: ResponsesApiResult): SourceRef[] {
+function normalizeDomain(url: string): string {
+  try {
+    return new URL(url).hostname.replace(/^www\./, "").toLowerCase();
+  } catch {
+    return url.toLowerCase();
+  }
+}
+
+function classifySource(domain: string): SourceTier {
+  if (
+    domain.endsWith(".gov") ||
+    domain.endsWith(".mil") ||
+    domain.includes("archives.gov") ||
+    domain.includes("loc.gov")
+  ) {
+    return "primary";
+  }
+
+  if (
+    domain.includes("virginia.edu") ||
+    domain.includes("sciencedirect.com") ||
+    domain.includes("springer.com") ||
+    domain.includes("wiley.com") ||
+    domain.includes("tandfonline.com") ||
+    domain.includes("sagepub.com") ||
+    domain.includes("journalofscientificexploration.org") ||
+    domain.includes("researchgate.net")
+  ) {
+    return "academic";
+  }
+
+  if (
+    domain.includes("reddit.com") ||
+    domain.includes("scribd.com") ||
+    domain.includes("psychologytoday.com") ||
+    domain.includes("theosophical.org") ||
+    domain.includes("reincarnationcentre.org")
+  ) {
+    return "weak";
+  }
+
+  return "secondary";
+}
+
+function analysisCorpus(result: ModelAnalysis): string {
+  return [
+    result.caseTitle,
+    result.summary,
+    ...result.evidence.flatMap((item) => [item.label, item.value]),
+    result.conventional.title,
+    result.conventional.assessment,
+    ...result.conventional.support,
+    ...result.conventional.limits,
+    result.continuity.title,
+    result.continuity.assessment,
+    ...result.continuity.support,
+    ...result.continuity.limits,
+    ...result.patterns,
+    result.nextHypothesis,
+    result.uncertainty,
+  ]
+    .join(" ")
+    .toLowerCase();
+}
+
+function extractSearchSources(
+  response: ResponsesApiResult,
+  result: ModelAnalysis,
+): SourceRef[] {
   const byUrl = new Map<string, SourceRef>();
+  const corpus = analysisCorpus(result);
+
   for (const item of response.output ?? []) {
     for (const source of item.action?.sources ?? []) {
       if (!source.url) continue;
+      const domain = normalizeDomain(source.url);
       byUrl.set(source.url, {
-        title: source.title?.trim() || new URL(source.url).hostname,
+        title: source.title?.trim() || domain,
         url: source.url,
+        domain,
+        tier: classifySource(domain),
+        usedInAnalysis: corpus.includes(domain),
       });
     }
   }
-  return [...byUrl.values()];
+
+  return [...byUrl.values()].sort((a, b) => {
+    const rank: Record<SourceTier, number> = {
+      primary: 0,
+      academic: 1,
+      secondary: 2,
+      weak: 3,
+    };
+    return Number(b.usedInAnalysis) - Number(a.usedInAnalysis) || rank[a.tier] - rank[b.tier];
+  });
 }
 
 function cleanText(value: string): string {
@@ -122,6 +205,7 @@ function cleanText(value: string): string {
     .replace(/\[([^\]]+)\]\(https?:\/\/[^)]+\)/g, "$1")
     .replace(/\s*\(https?:\/\/[^)]+\)/g, "")
     .replace(/\s+https?:\/\/\S+/g, "")
+    .replace(/\s*\((?:www\.)?[a-z0-9.-]+\.[a-z]{2,}(?:\/[^)]*)?\)/gi, "")
     .replace(/\s{2,}/g, " ")
     .trim();
 }
@@ -162,7 +246,7 @@ export async function analyseWithAstra(query: string): Promise<AnalysisResult> {
     throw new Error("OPENAI_API_KEY is not configured on the server.");
   }
 
-  const instructions = `You are the research engine for Continuity Atlas. Investigate publicly documented claims about possible continuity across lives without assuming that reincarnation exists. Use web research and preserve epistemic distinctions. Evidence status meanings: documented = supported by an identifiable documentary source, but not automatically independently verified; reported = attributed testimony or claim; interpreted = inference or analytical judgment; unknown = not established from available evidence. If a fact is independently verified, say that explicitly in the value rather than treating all documented material as independent verification. Prefer primary, academic, institutional, archival, or well-documented sources; use weaker sources only when necessary and mark their limitations. Check chronology and possible information contamination. Evaluate conventional explanations first, then evaluate the continuity hypothesis using the same evidence. Do not convert correlation into causation. The score ranks evidential strength, not truth of reincarnation. If evidence cannot discriminate between hypotheses, state that explicitly. For a single case, do not claim that a true cross-case pattern has been established. Do not include URLs, markdown links, or citation markers inside any text field; source links are handled separately by the application.`;
+  const instructions = `You are the research engine for Continuity Atlas. Investigate publicly documented claims about possible continuity across lives without assuming that reincarnation exists. Use web research and preserve epistemic distinctions. Evidence status meanings: documented = supported by an identifiable documentary source, but not automatically independently verified; reported = attributed testimony or claim; interpreted = inference or analytical judgment; unknown = not established from available evidence. If a fact is independently verified, say that explicitly in the value rather than treating all documented material as independent verification. Prefer primary, academic, institutional, archival, or well-documented sources; use weaker sources only when necessary and mark their limitations. Check chronology and possible information contamination. Evaluate conventional explanations first, then evaluate the continuity hypothesis using the same evidence. Do not convert correlation into causation. The score ranks evidential strength, not truth of reincarnation. If evidence cannot discriminate between hypotheses, state that explicitly. For a single case, do not claim that a true cross-case pattern has been established. Do not include URLs, domain names in parentheses, markdown links, or citation markers inside any text field; source links are handled separately by the application.`;
 
   const input = `Research this public case or source: ${query}\n\nReturn a concise but substantive case analysis. Evidence Map items should emphasize the most decision-relevant facts for the 43-variable Continuity Atlas research schema: chronology, concrete claims, independent verification, errors, affect/phobias/preferences, abilities, physical traits, documentation timing, witnesses, contamination channels, and time course. For both H0 and H1, provide a short assessment plus concrete support points and explicit limits. Score information strength, source quality, low contamination, and residual anomaly from 0 to 5; total must equal their sum.`;
 
@@ -212,6 +296,6 @@ export async function analyseWithAstra(query: string): Promise<AnalysisResult> {
 
   return {
     ...result,
-    provenance: extractSearchSources(payload),
+    provenance: extractSearchSources(payload, result),
   };
 }
