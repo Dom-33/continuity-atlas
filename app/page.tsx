@@ -5,7 +5,7 @@ import type { AnalysisResult, EvidenceStatus } from "@/lib/schema";
 import styles from "./continuity.module.css";
 
 const statusLabel: Record<EvidenceStatus, string> = {
-  verified: "Verified fact",
+  documented: "Documented fact",
   reported: "Reported claim",
   interpreted: "Interpretation",
   unknown: "Unknown",
@@ -17,6 +17,45 @@ const scoreLabels = [
   ["Low contamination", "lowContamination"],
   ["Anomaly strength", "anomalyStrength"],
 ] as const;
+
+function ExplanationBlock({
+  title,
+  assessment,
+  support,
+  limits,
+}: {
+  title: string;
+  assessment: string;
+  support: string[];
+  limits: string[];
+}) {
+  return (
+    <section className={styles.explanationBlock}>
+      <h4>{title}</h4>
+      <p>{assessment}</p>
+      {support.length ? (
+        <>
+          <h5>Support</h5>
+          <ul>
+            {support.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+        </>
+      ) : null}
+      {limits.length ? (
+        <>
+          <h5>Limits</h5>
+          <ul>
+            {limits.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+        </>
+      ) : null}
+    </section>
+  );
+}
 
 export default function Home() {
   const [query, setQuery] = useState("");
@@ -98,7 +137,7 @@ export default function Home() {
           <h2>Analyse a public case</h2>
           <p className={styles.muted}>
             Enter a case name, person, or public source. Astra researches public sources,
-            preserves provenance, and returns a structured comparison of competing explanations.
+            preserves provenance, and returns a structured evidence analysis.
           </p>
 
           <form onSubmit={handleSubmit} className={styles.form}>
@@ -122,7 +161,7 @@ export default function Home() {
           <ol>
             <li>Research public sources and preserve provenance</li>
             <li>Extract into the 43-variable research schema</li>
-            <li>Separate fact, report, interpretation, and unknown</li>
+            <li>Separate documented fact, report, interpretation, and unknown</li>
             <li>Evaluate conventional explanations</li>
             <li>Evaluate continuity separately</li>
             <li>Score evidence quality and anomaly</li>
@@ -180,12 +219,8 @@ export default function Home() {
 
               <article className={styles.card}>
                 <h3>Competing Explanations</h3>
-                <div className={styles.explanation}>
-                  <h4>{result.conventional.title}</h4>
-                  <p>{result.conventional.assessment}</p>
-                  <h4>{result.continuity.title}</h4>
-                  <p>{result.continuity.assessment}</p>
-                </div>
+                <ExplanationBlock {...result.conventional} />
+                <ExplanationBlock {...result.continuity} />
                 <p className={styles.uncertainty}>{result.uncertainty}</p>
               </article>
             </div>
@@ -215,6 +250,24 @@ export default function Home() {
                 <p>{result.nextHypothesis}</p>
               </article>
             </div>
+
+            <article className={styles.card}>
+              <h3>Sources / Provenance</h3>
+              {result.provenance.length ? (
+                <ol className={styles.sources}>
+                  {result.provenance.map((source) => (
+                    <li key={source.url}>
+                      <a href={source.url} target="_blank" rel="noreferrer">
+                        {source.title}
+                      </a>
+                      <span>{source.url}</span>
+                    </li>
+                  ))}
+                </ol>
+              ) : (
+                <p className={styles.muted}>No source list was returned for this analysis.</p>
+              )}
+            </article>
           </div>
         )}
       </section>
