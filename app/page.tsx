@@ -97,8 +97,8 @@ export default function Home() {
           <p className={styles.sectionLabel}>Research input</p>
           <h2>Analyse a public case</h2>
           <p className={styles.muted}>
-            Enter a case name, person, or public source. The current route validates the
-            full interface; the live Astra research call is the next integration step.
+            Enter a case name, person, or public source. Astra researches public sources,
+            preserves provenance, and returns a structured comparison of competing explanations.
           </p>
 
           <form onSubmit={handleSubmit} className={styles.form}>
