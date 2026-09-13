@@ -1,0 +1,425 @@
+{
+  "id": "swarnlata-mishra-biya-pathak",
+  "status": "validated",
+  "reviewedAt": "2026-09-13T19:49:08.290Z",
+  "model": "gpt-6-astra",
+  "reviewNote": "Candidate exported from the Continuity Atlas review interface; commit only after human review.",
+  "analysis": {
+    "caseTitle": "Swarnlata Mishra / Biya Pathak",
+    "summary": "A substantive childhood identity claim with some statements reportedly written before identification of the proposed previous family. Crucially, those records followed contact with someone who knew Biya. Detailed correspondences merit investigation, but information leakage, retrospective testimony and uncontrolled recognitions prevent establishing continuity.",
+    "evidence": [
+      {
+        "label": "Chronology",
+        "value": "Born March 2, 1948; statements reportedly began around age three during travel through Katni. Biya reportedly died in 1939. Childhood onset is retrospective testimony, not contemporaneous observation.",
+        "status": "reported"
+      },
+      {
+        "label": "Documentation timing",
+        "value": "Father’s notes date to September 1958; Banerjee recorded house details before locating the Pathaks in March 1959. Family reunions followed that summer; Stevenson investigated in 1961. These dates are documented in the published account; original notes were not independently authenticated here.",
+        "status": "documented"
+      },
+      {
+        "label": "Concrete pre-identification claims",
+        "value": "Attributed statements included Pathak family membership in Katni, two sons, a white house, black doors, stone flooring, a car, and nearby school, railway and lime furnaces. The published table identifies informants and claimed corroborators.",
+        "status": "reported"
+      },
+      {
+        "label": "Verification and its independence",
+        "value": "Stevenson personally observed some house/environmental correspondences; historical details relied on relatives. This provides investigator corroboration, not independent verification of when the child learned the information. No civil or medical originals were authenticated in this review.",
+        "status": "documented"
+      },
+      {
+        "label": "Errors and incomplete denominator",
+        "value": "Reported errors concern sons’ names, the family head’s name and death from throat disease rather than heart disease. The money-box story differs by 200 rupees. Stevenson explicitly omitted some statements with discrepant or incomplete testimony, preventing a defensible overall accuracy rate.",
+        "status": "documented"
+      },
+      {
+        "label": "Information-contamination channels",
+        "value": "Mrs Agnihotri, who knew Biya, met Swarnlata in July 1958—before the written record. Stevenson also identified journeys through Katni and an acquaintance linking Biya’s brother to Swarnlata’s maternal cousin. Actual transmission through these channels is unproved.",
+        "status": "documented"
+      },
+      {
+        "label": "Recognitions and witnesses",
+        "value": "Relatives reported concealed-identity recognitions and rejection of impostors. Banerjee missed the reunions; the father later explained that he feared failed recognitions would embarrass him. Thus these were not independently supervised, blinded tests.",
+        "status": "reported"
+      },
+      {
+        "label": "Affect, preferences and time course",
+        "value": "Reports describe tears, affection, motherly/sisterly behaviour toward Biya’s relatives and continuing attachment to her birth family. In November 1971 she reported retaining memories. Repeated accepted family contact makes later persistence difficult to separate from reinforcement.",
+        "status": "reported"
+      },
+      {
+        "label": "Abilities and intermediate-life claim",
+        "value": "Bengali songs and dances were attributed to an intervening life as Kamlesh in Sylhet. Pal identified altered Tagore songs, but no corresponding child was identified. Recitation does not establish conversational command or exclude ordinary learning.",
+        "status": "reported"
+      },
+      {
+        "label": "Physical traits and phobias",
+        "value": "No evidentially useful birthmark, congenital-defect correspondence or systematically assessed phobia was established in the reviewed material. Biya’s alleged gold dental fillings concern remembered information, not a matching physical feature in Swarnlata.",
+        "status": "unknown"
+      }
+    ],
+    "conventional": {
+      "title": "H0 — Ordinary acquisition, reconstruction and social reinforcement",
+      "assessment": "Viable, although no complete transmission pathway has been demonstrated.",
+      "support": [
+        "Pre-identification documentation is not pre-exposure documentation: the Agnihotri contact preceded the notes.",
+        "Unsupervised reunions and selective tabulation permit cueing, retrospective reconstruction and selection effects."
+      ],
+      "limits": [
+        "A possible information route is not evidence that transmission actually occurred.",
+        "If authenticated early records contain specific nonpublic details, generic appeals to suggestion would be insufficient."
+      ]
+    },
+    "continuity": {
+      "title": "H1 — Information or personal continuity from Biya",
+      "assessment": "The reported combination of early descriptions and recognitions is suggestive, but not discriminating evidence for continuity.",
+      "support": [
+        "The house-description cluster reportedly helped locate a family not yet identified by the Mishras.",
+        "Reported resistance to misleading identifications would be noteworthy if contemporaneously and independently confirmed."
+      ],
+      "limits": [
+        "The strongest recognitions occurred after investigators or relatives knew the target identity.",
+        "Errors, incomplete reporting and uncontrolled access prevent reliable likelihood comparisons.",
+        "Even unexplained information acquisition would not by itself establish persistence of a person."
+      ]
+    },
+    "scores": {
+      "informationStrength": 3,
+      "sourceQuality": 3,
+      "lowContamination": 2,
+      "anomalyStrength": 2,
+      "total": 10
+    },
+    "patterns": [
+      "As in the supplied Leininger case, documentation before target selection must be distinguished from documentation before information access.",
+      "All three cases involve retrospective reconstruction of childhood claims; their contamination conditions differ substantially. This is a methodological similarity, not evidence of a shared continuity mechanism."
+    ],
+    "nextHypothesis": "Test whether the earliest dated notes contain specific, nonpublic Biya details unavailable through the Agnihotri and maternal-family networks. Authenticate originals, separate pre-contact statements from reunion additions, and score every recorded statement—including errors—against plausible alternative households.",
+    "uncertainty": "The accessible evidence cannot decisively discriminate H0 from H1. Research located the investigator’s published account and derivative summaries, but not independently authenticated early notes or a complete contemporaneous recognition record. The 10/20 score ranks evidential strength, not the probability or truth of reincarnation.",
+    "provenance": [
+      {
+        "title": "esalen.org",
+        "url": "https://www.esalen.org/ctr/mediumship",
+        "domain": "esalen.org",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "psi-encyclopedia.spr.ac.uk",
+        "url": "https://psi-encyclopedia.spr.ac.uk/articles/swarnlata-mishra-reincarnation-case/",
+        "domain": "psi-encyclopedia.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "Twenty cases suggestive of reincarnation",
+        "url": "https://s3.us-west-1.wasabisys.com/luminist/EB/S/Stevenson%20-%2020%20Cases%20Suggestive%20of%20Reincarnation.pdf?utm_source=openai",
+        "domain": "s3.us-west-1.wasabisys.com",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "scribd.com",
+        "url": "https://www.scribd.com/document/774377492/Stevenson-20-Cases-Suggestive-of-Reincarnation-pages-05",
+        "domain": "scribd.com",
+        "tier": "weak",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "med.virginia.edu",
+        "url": "https://med.virginia.edu/perceptual-studies/publications/books-by-dops-faculty/study-of-reincarnation/twenty-cases-suggestive-of-reincarnation/",
+        "domain": "med.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "med.virginia.edu",
+        "url": "https://med.virginia.edu/perceptual-studies/wp-content/uploads/sites/360/2021/04/Stevenson-1974-J-American-Society-for-Psychical-Research_-Some-new-cases-suggestive-of-reincarnation-V-The-case-of-Indika-Guneratne.pdf",
+        "domain": "med.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "researchgate.net",
+        "url": "https://www.researchgate.net/publication/384905191_The_Composition_of_Ian_Stevenson%27s_Twenty_Cases_Suggestive_of_Reincarnation",
+        "domain": "researchgate.net",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "assepe.org.br",
+        "url": "https://www.assepe.org.br/livros/Vinte_Casos_Sugestivos_de_Reencarnacao.pdf",
+        "domain": "assepe.org.br",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "psi-encyclopedia.spr.ac.uk",
+        "url": "https://psi-encyclopedia.spr.ac.uk/sites/default/files/ebook/article/swarnlata_mishra-774.pdf",
+        "domain": "psi-encyclopedia.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "esalq.usp.br",
+        "url": "https://www.esalq.usp.br/lepse/imgs/conteudo_thumb/The-Roots-of-Consciousness.pdf",
+        "domain": "esalq.usp.br",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "s3.us-west-1.wasabisys.com",
+        "url": "https://s3.us-west-1.wasabisys.com/luminist/EB/S/Stevenson%20-%2020%20Cases%20Suggestive%20of%20Reincarnation.pdf",
+        "domain": "s3.us-west-1.wasabisys.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "so03.tci-thaijo.org",
+        "url": "https://so03.tci-thaijo.org/index.php/ibsc/article/download/252901/169531/",
+        "domain": "so03.tci-thaijo.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "stillnessinthestorm.com",
+        "url": "https://stillnessinthestorm.com/scientific-proof-of-reincarnation-dr/",
+        "domain": "stillnessinthestorm.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "realidadtrascendental.wordpress.com",
+        "url": "https://realidadtrascendental.wordpress.com/2014/05/01/el-caso-de-swarnlata-mishra/",
+        "domain": "realidadtrascendental.wordpress.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "medium.com",
+        "url": "https://medium.com/the-creative-cafe/the-day-she-came-back-a7707f7356da",
+        "domain": "medium.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "legaldeskai.in",
+        "url": "https://www.legaldeskai.in/case-law/in/sc/judgment/state-of-andhra-pradesh-versus-s-swarnalatha-ors-2009-12-289-300",
+        "domain": "legaldeskai.in",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "lassacerdotisasdeisis.blogspot.com",
+        "url": "https://lassacerdotisasdeisis.blogspot.com/2014/03/memorias-de-vidas-pasadas-la-historia_7.html",
+        "domain": "lassacerdotisasdeisis.blogspot.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "advocatekhoj.com",
+        "url": "https://www.advocatekhoj.com/library/judgments/index.php?go=2009%2Faugust%2Fstate-of-a-p-vs-s-swarnalatha-ors-29",
+        "domain": "advocatekhoj.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Rangnath_Mishra",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "arxiv.org",
+        "url": "https://arxiv.org/abs/1602.03840",
+        "domain": "arxiv.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "arxiv.org",
+        "url": "https://arxiv.org/abs/2207.07048",
+        "domain": "arxiv.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "search.worldcat.org",
+        "url": "https://search.worldcat.org/title/twenty-cases-suggestive-of-reincarnation/oclc/1036962910",
+        "domain": "search.worldcat.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "openlibrary.org",
+        "url": "https://openlibrary.org/works/OL2943401W/Twenty_cases_suggestive_of_reincarnation",
+        "domain": "openlibrary.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "books.google.com",
+        "url": "https://books.google.com/books/about/Twenty_Cases_Suggestive_of_Reincarnation.html?id=lEUKAQAAMAAJ",
+        "domain": "books.google.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "search.worldcat.org",
+        "url": "https://search.worldcat.org/title/Twenty-cases-suggestive-of-reincarnation/oclc/1067306",
+        "domain": "search.worldcat.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "openlibrary.org",
+        "url": "https://openlibrary.org/books/OL5443218M/Twenty_cases_suggestive_of_reincarnation.",
+        "domain": "openlibrary.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Twenty_Cases_Suggestive_of_Reincarnation",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "cir.nii.ac.jp",
+        "url": "https://cir.nii.ac.jp/crid/1971993809784133665",
+        "domain": "cir.nii.ac.jp",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "search.worldcat.org",
+        "url": "https://search.worldcat.org/title/7810141",
+        "domain": "search.worldcat.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "cir.nii.ac.jp",
+        "url": "https://cir.nii.ac.jp/crid/1971993809784133665/holdings",
+        "domain": "cir.nii.ac.jp",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "jamesgmatlock.com",
+        "url": "https://jamesgmatlock.com/pubs/2011-2/",
+        "domain": "jamesgmatlock.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "open-data.spr.ac.uk",
+        "url": "https://open-data.spr.ac.uk/sites/default/files/ebook/article/stevenson_ian-667.pdf",
+        "domain": "open-data.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "spr.ac.uk",
+        "url": "https://www.spr.ac.uk/sites/default/files/Annotated%20bibliography%20from%20Irreducible%20Mind.pdf",
+        "domain": "spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "proyectoisi.frc.utn.edu.ar",
+        "url": "https://proyectoisi.frc.utn.edu.ar/results/browse/Download_PDFS/twenty_cases_suggestive_of_reincarnation.pdf",
+        "domain": "proyectoisi.frc.utn.edu.ar",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "skepsis.nl",
+        "url": "https://skepsis.nl/mainsite/inhoud/uploads/2015/09/sn1-reincarnatie.pdf",
+        "domain": "skepsis.nl",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Ian_Stevenson",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "zh.wikipedia.org",
+        "url": "https://zh.wikipedia.org/wiki/%E4%BA%8C%E5%8D%81%E4%B8%AA%E6%9A%97%E7%A4%BA%E8%BD%AC%E4%B8%96%E7%9A%84%E6%A1%88%E4%BE%8B",
+        "domain": "zh.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "pt.wikipedia.org",
+        "url": "https://pt.wikipedia.org/wiki/Vinte_Casos_Sugestivos_de_Reencarna%C3%A7%C3%A3o",
+        "domain": "pt.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "pt.wikipedia.org",
+        "url": "https://pt.wikipedia.org/wiki/Ian_Stevenson",
+        "domain": "pt.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "es.wikipedia.org",
+        "url": "https://es.wikipedia.org/wiki/Veinte_casos_que_hacen_pensar_en_la_reencarnaci%C3%B3n",
+        "domain": "es.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "scribd.com",
+        "url": "https://www.scribd.com/document/181161436/Dr-Ian-Stevensons-research-on-reincarnation-pdf",
+        "domain": "scribd.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "pt.scribd.com",
+        "url": "https://pt.scribd.com/doc/13797234/Ian-Stevenson-Vinte-Casos-Sugestivos-de-Reencarnacao-Segunda-Edicao",
+        "domain": "pt.scribd.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "pt.scribd.com",
+        "url": "https://pt.scribd.com/document/837006865/13%C2%AA-Revista-Caravana-Jovem-Reencarnac-a-o",
+        "domain": "pt.scribd.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/allthingmystery/comments/1uukqnb/the_swarnlata_mishra_case_one_of_the_worlds_most/",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "scribd.com",
+        "url": "https://www.scribd.com/document/768178720/Stevenson-20-Cases-Suggestive-of-Reincarnation",
+        "domain": "scribd.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/parapsychology/comments/1g4eio9/the_composition_of_ian_stevensons_twenty_cases/",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      }
+    ]
+  }
+}
