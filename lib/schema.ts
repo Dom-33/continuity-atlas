@@ -1,4 +1,4 @@
-export type EvidenceStatus = "verified" | "reported" | "interpreted" | "unknown";
+export type EvidenceStatus = "documented" | "reported" | "interpreted" | "unknown";
 
 export type EvidenceItem = {
   label: string;
@@ -21,6 +21,11 @@ export type ScoreProfile = {
   total: number;
 };
 
+export type SourceRef = {
+  title: string;
+  url: string;
+};
+
 export type AnalysisResult = {
   caseTitle: string;
   summary: string;
@@ -31,5 +36,5 @@ export type AnalysisResult = {
   patterns: string[];
   nextHypothesis: string;
   uncertainty: string;
-  provenance: string[];
+  provenance: SourceRef[];
 };
