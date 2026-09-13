@@ -1,0 +1,501 @@
+{
+  "id": "james-leininger-james-m-huston-jr",
+  "status": "validated",
+  "reviewedAt": "2026-09-13T18:54:22.342Z",
+  "model": "gpt-6-astra",
+  "reviewNote": "Candidate exported from the Continuity Atlas review interface; commit only after human review.",
+  "analysis": {
+    "caseTitle": "James Leininger / James M. Huston Jr.",
+    "summary": "A substantive but contested childhood past-life claim. Some documentation predates the family's selection of Huston, but not its historical research or aviation exposure. The principal unresolved issue is the provenance of specific names—not whether a matching wartime pilot existed. Conventional explanations remain viable; continuity is not established.",
+    "evidence": [
+      {
+        "label": "Birth and onset chronology",
+        "value": "Born April 10, 1998. Parents place recurrent crash nightmares around May 2000, following a February 2000 aviation-museum visit. These onset dates are reconstructed testimony, not contemporaneous clinical observations.",
+        "status": "reported"
+      },
+      {
+        "label": "Concrete claims",
+        "value": "Parents attributed to James an American pilot identity, Japanese gunfire, an engine hit, a burning water crash, a ship called Natoma, fellow pilot Jack Larsen, and a Corsair aircraft. Attribution and original wording require separate evaluation from historical matches.",
+        "status": "reported"
+      },
+      {
+        "label": "Independent historical verification",
+        "value": "Independently of the family's testimony, the Defense POW/MIA Accounting Agency lists Navy Lieutenant Junior Grade James M. Huston, service number O-306452, lost March 3, 1945. This verifies the serviceman and loss date—not James's access to information or reincarnation.",
+        "status": "documented"
+      },
+      {
+        "label": "Historical correspondence and its limits",
+        "value": "Tucker reproduces military material connecting Huston and Larsen to the Natoma Bay mission. Engine-hit corroboration relies partly on veterans' later recollections and a memoir; the child's purported experience of being trapped is not independently verified.",
+        "status": "documented"
+      },
+      {
+        "label": "Earliest specific-name documentation",
+        "value": "Researchers cite dated searches for Natoma on August 27, 2000, and Larsen on October 16, 2000. These establish parental searches, not recordings of the child's preceding utterances.",
+        "status": "documented"
+      },
+      {
+        "label": "Prior access versus target selection",
+        "value": "Matlock's chronology places a downloaded casualty list containing Huston's name on January 7, 2001; selection of Huston followed in September 2002. Thus documentation before target selection cannot automatically be treated as documentation before access to target information.",
+        "status": "documented"
+      },
+      {
+        "label": "Documentation timing and missing records",
+        "value": "An unaired 2002 ABC segment records parental accounts before Huston's selection. Tucker reports that the mother's original notes were subsequently lost or discarded. His substantive family interviews occurred in 2010, after the 2009 memoir Soul Survivor.",
+        "status": "documented"
+      },
+      {
+        "label": "Witness independence",
+        "value": "Parents supplied most early statement testimony; an aunt corroborated nightmares. Veterans corroborated historical events, not the child's original statements. These witness groups therefore do not independently verify the entire evidential chain.",
+        "status": "interpreted"
+      },
+      {
+        "label": "Errors and disputed matches",
+        "value": "Huston died flying an FM-2 Wildcat, not a Corsair, and at Chichi Jima rather than Iwo Jima. Earlier Corsair experience and participation in the broader Iwo Jima operation provide partial reconciliations, not exact confirmation of the original claims.",
+        "status": "documented"
+      },
+      {
+        "label": "Information-contamination channels",
+        "value": "Museum visits, aviation videos, books, parental research and veteran contacts supplied ordinary information channels. Sudduth identifies WWII footage, combat imagery and a pilot named Larsen in the repeatedly watched Blue Angels video; this does not establish acquisition of the full name Jack Larsen.",
+        "status": "documented"
+      },
+      {
+        "label": "Suggestion and chronology dispute",
+        "value": "Matlock dates initial correspondence with reincarnation adviser Carol Bowman to February 18, 2001, using an email he examined but did not publish. This challenges claims that her advice initiated the earliest narrative, while leaving subsequent reinforcement possible.",
+        "status": "documented"
+      },
+      {
+        "label": "Affect, preferences and time course",
+        "value": "Family reports describe intense nightmares, repetitive crash play and strong aviation interest. Nightmares reportedly diminished after reassurance; Matlock describes a final peaceful drawing after a September 2006 memorial visit. Neither improvement nor distress identifies its cause.",
+        "status": "reported"
+      },
+      {
+        "label": "Abilities and physical traits",
+        "value": "Aviation terminology and apparent cockpit familiarity were not controlled skill demonstrations. Bruce's later essay claims facial resemblance using selected photographs, not blinded measurement. No independently validated birthmark or injury correspondence was established in the reviewed material.",
+        "status": "unknown"
+      }
+    ],
+    "conventional": {
+      "title": "H0 — Ordinary learning, narrative development and retrospective matching",
+      "assessment": "The stronger working explanation, without requiring deliberate deception. Exposure and documentation weaknesses reduce the need to posit continuity.",
+      "support": [
+        "Known aviation exposure offers concrete sources for imagery, vocabulary and play.",
+        "Research preceded much surviving documentation, allowing feedback and retrospective selection of matches.",
+        "Aircraft and location discrepancies weaken an exact-memory interpretation."
+      ],
+      "limits": [
+        "No demonstrated ordinary acquisition chain explains every specific name; potential exposure is not proof of learning.",
+        "Early documents constrain explanations based entirely on embellishment after Huston's selection."
+      ]
+    },
+    "continuity": {
+      "title": "H1 — Information or personal continuity from Huston's life",
+      "assessment": "Conditionally suggestive if the specific names originated with James before relevant exposure; that crucial condition remains unverified.",
+      "support": [
+        "Natoma, Larsen and the fatal mission form a more specific correspondence than generic airplane knowledge.",
+        "Some matching claims were documented before the family's final identification."
+      ],
+      "limits": [
+        "Historical corroboration does not independently establish the child's information source.",
+        "Parental mediation, contamination opportunities and incorrect details prevent a decisive comparison with H0.",
+        "Even unexplained knowledge would not by itself demonstrate persistence of personal identity."
+      ]
+    },
+    "scores": {
+      "informationStrength": 3,
+      "sourceQuality": 3,
+      "lowContamination": 1,
+      "anomalyStrength": 2,
+      "total": 9
+    },
+    "patterns": [],
+    "nextHypothesis": "Test whether the specificity of attributed statements increased after corresponding parental discoveries. Independently authenticate and sequence search printouts, original correspondence, unedited ABC footage and military records; blind-code exact matches, errors and ambiguous statements using the earliest available wording.",
+    "uncertainty": "The surviving record cannot decisively discriminate between H0 and H1. Important early material remains privately held, retrospective or missing. Scores rank evidential strength, not reincarnation probability; 9/20 reflects moderate documentation but weak contamination control. No cross-case patterns are asserted because no validated comparison corpus was supplied.",
+    "provenance": [
+      {
+        "title": "dpaa.mil",
+        "url": "https://www.dpaa.mil/portals/85/WWIIAccounting/wwii_una_PENNSYLVANIA_20210910.pdf",
+        "domain": "dpaa.mil",
+        "tier": "primary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "journalofscientificexploration.org",
+        "url": "https://journalofscientificexploration.org/index.php/jse/article/view/2529",
+        "domain": "journalofscientificexploration.org",
+        "tier": "academic",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "journalofscientificexploration.org",
+        "url": "https://www.journalofscientificexploration.org/index.php/jse/article/download/2529/1659",
+        "domain": "journalofscientificexploration.org",
+        "tier": "academic",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "journalofscientificexploration.org",
+        "url": "https://journalofscientificexploration.org/index.php/jse/article/view/2361",
+        "domain": "journalofscientificexploration.org",
+        "tier": "academic",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "journalofscientificexploration.org",
+        "url": "https://journalofscientificexploration.org/index.php/jse/article/view/2515",
+        "domain": "journalofscientificexploration.org",
+        "tier": "academic",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "journalofscientificexploration.org",
+        "url": "https://journalofscientificexploration.org/index.php/jse/article/view/2487",
+        "domain": "journalofscientificexploration.org",
+        "tier": "academic",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "journalofscientificexploration.org",
+        "url": "https://journalofscientificexploration.org/index.php/jse/article/view/2765",
+        "domain": "journalofscientificexploration.org",
+        "tier": "academic",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "med.virginia.edu",
+        "url": "https://med.virginia.edu/perceptual-studies/publications/academic-publications/",
+        "domain": "med.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "med.virginia.edu",
+        "url": "https://med.virginia.edu/perceptual-studies/our-research/children-who-report-memories-of-previous-lives/",
+        "domain": "med.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "med.virginia.edu",
+        "url": "https://med.virginia.edu/infectious-diseases/wp-content/uploads/sites/219/2016/07/Overview2016_Rev.pdf",
+        "domain": "med.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "med.virginia.edu",
+        "url": "https://med.virginia.edu/perceptual-studies/resources/educational-activities/",
+        "domain": "med.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "med.virginia.edu",
+        "url": "https://med.virginia.edu/dom/wp-content/uploads/sites/210/2015/11/JoM-v5-May-2009.pdf",
+        "domain": "med.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "med.virginia.edu",
+        "url": "https://med.virginia.edu/perceptual-studies/participate/join-our-research-team/join-our-research-medical-students-and-residents/",
+        "domain": "med.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "med.virginia.edu",
+        "url": "https://med.virginia.edu/dom/wp-content/uploads/sites/210/2015/11/JoM-v2-Jan-2008.pdf",
+        "domain": "med.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "med.virginia.edu",
+        "url": "https://med.virginia.edu/perceptual-studies/wp-content/uploads/sites/360/2022/05/Tucker-JSE-Response-to-JL-crit-2487-Article-Text-12829-1-10-20220522-1.pdf",
+        "domain": "med.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "research.va.gov",
+        "url": "https://www.research.va.gov/currents/archive.cfm",
+        "domain": "research.va.gov",
+        "tier": "primary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "abmc.gov",
+        "url": "https://www.abmc.gov/profile/private-first-class-george-burly-davis/",
+        "domain": "abmc.gov",
+        "tier": "primary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "archives.gov",
+        "url": "https://www.archives.gov/files/foia/pdf/nprc-crg-part8-508.pdf",
+        "domain": "archives.gov",
+        "tier": "primary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "researchgate.net",
+        "url": "https://www.researchgate.net/publication/360789053_Clarifying_Muddied_Waters_Part_1_A_Secure_Timeline_for_the_James_Leininger_Case",
+        "domain": "researchgate.net",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "researchgate.net",
+        "url": "https://www.researchgate.net/publication/357905243_The_James_Leininger_Case_Re-Examined",
+        "domain": "researchgate.net",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "researchgate.net",
+        "url": "https://www.researchgate.net/publication/360785389_Response_to_Jim_Tucker",
+        "domain": "researchgate.net",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "researchgate.net",
+        "url": "https://www.researchgate.net/figure/James-Leiningers-Early-Bird-Statements-and-Behaviors_tbl1_360789053",
+        "domain": "researchgate.net",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "news.med.virginia.edu",
+        "url": "https://news.med.virginia.edu/medicinematters/?cat=20&paged=9",
+        "domain": "news.med.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "bov.virginia.edu",
+        "url": "https://bov.virginia.edu/sites/g/files/jsddwu1171/files/2024-06/%2716%20DEC%20MCOB%20Book%20final.pdf",
+        "domain": "bov.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "news.med.virginia.edu",
+        "url": "https://news.med.virginia.edu/medicinematters/?attachment_id=&paged=70",
+        "domain": "news.med.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "vajournal.med.virginia.edu",
+        "url": "https://vajournal.med.virginia.edu/_files/ugd/517e48_9eced8a613f04a69929022d225d3d9fd.pdf",
+        "domain": "vajournal.med.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "news.med.virginia.edu",
+        "url": "https://news.med.virginia.edu/medicinematters/sanja1/?paged=103",
+        "domain": "news.med.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "archive.news.virginia.edu",
+        "url": "https://archive.news.virginia.edu/content/unknown-soldiers-uva-discovers-powerful-defenders-brain/",
+        "domain": "archive.news.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "researchgate.net",
+        "url": "https://www.researchgate.net/publication/360821061_Response_to_Sudduth%27s_James_Leininger_Case_Re-Examined",
+        "domain": "researchgate.net",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "openurl.ebsco.com",
+        "url": "https://openurl.ebsco.com/contentitem/gcd%3A157333301?crl=f&id=ebsco%3Agcd%3A157333301&jrnl=08923310&sid=ebsco%3Aplink%3Acrawler-gcd",
+        "domain": "openurl.ebsco.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "michaelsudduth.com",
+        "url": "https://michaelsudduth.com/wp-content/uploads/2022/01/JSE-354-Sudduth-FINAL.pdf",
+        "domain": "michaelsudduth.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "scispace.com",
+        "url": "https://scispace.com/papers/clarifying-muddied-waters-part-1-a-secure-timeline-for-the-aaqtlmuy",
+        "domain": "scispace.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "michaelsudduth.com",
+        "url": "https://michaelsudduth.com/sudduth-leininger-case-jse-paper/",
+        "domain": "michaelsudduth.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Jim_B._Tucker",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Timeline_of_investigations_into_Donald_Trump_and_Russia_%282020%E2%80%932022%29",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Steele_dossier",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/2022_United_States_Congress_hearings_on_UFOs",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Investigation_of_UFO_reports_by_the_United_States_government",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "visualize.jove.com",
+        "url": "https://visualize.jove.com/27079216-the-case-of-james-leininger-an-american-case-of-the-reincarnation-type",
+        "domain": "visualize.jove.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "offpitch.space",
+        "url": "https://offpitch.space/what-are-the-best-known-cases-said-to-prove-past-lives/",
+        "domain": "offpitch.space",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "jamesgmatlock.com",
+        "url": "https://jamesgmatlock.com/wp-content/uploads/2024/06/Matlock-2022-Muddied-Waters-Pt-2.pdf",
+        "domain": "jamesgmatlock.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "psi-encyclopedia.spr.ac.uk",
+        "url": "https://psi-encyclopedia.spr.ac.uk/articles/jim-b-tucker/",
+        "domain": "psi-encyclopedia.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "cbihistory.org",
+        "url": "https://www.cbihistory.org/huston-james-h7534-0atc.cfm",
+        "domain": "cbihistory.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "bigelowinstitute.org",
+        "url": "https://www.bigelowinstitute.org/wp-content/uploads/2022/10/leininger-consciousness-survives-death.pdf",
+        "domain": "bigelowinstitute.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "awm.gov.au",
+        "url": "https://www.awm.gov.au/collection/LIB33623",
+        "domain": "awm.gov.au",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "books.google.com",
+        "url": "https://books.google.com/books/about/Outposts_and_Allies.html?id=i1Mom8UUkGwC",
+        "domain": "books.google.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "prabook.com",
+        "url": "https://prabook.com/web/james_huston.mcculloch/1449795",
+        "domain": "prabook.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "theformulaforcreatingheavenonearth.com",
+        "url": "https://theformulaforcreatingheavenonearth.com/wp-content/uploads/2022/04/06-HM-Bruce-Lehninger.pdf",
+        "domain": "theformulaforcreatingheavenonearth.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "manancialdeluz.blogspot.com",
+        "url": "https://manancialdeluz.blogspot.com/2010/11/historia-real-de-reencarnacao-o-caso.html",
+        "domain": "manancialdeluz.blogspot.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "hub-xchange.com",
+        "url": "https://hub-xchange.com/news-xchange-articles/celebrating-innovation-antibody-science-james-s-huston-antibody-science-talent-award",
+        "domain": "hub-xchange.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "books.google.com",
+        "url": "https://books.google.com/books/about/The_Sinews_of_War.html?id=Em_bAAAAMAAJ",
+        "domain": "books.google.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "awm.gov.au",
+        "url": "https://www.awm.gov.au/collection/LIB100046145",
+        "domain": "awm.gov.au",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Gertrude_Huston",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "de.wikipedia.org",
+        "url": "https://de.wikipedia.org/wiki/Die_Schlacht_um_San_Pietro",
+        "domain": "de.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Let_There_Be_Light_%281946_film%29",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      }
+    ]
+  }
+}

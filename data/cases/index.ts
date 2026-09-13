@@ -1,4 +1,6 @@
-import type { ValidatedCaseRecord } from "@/lib/schema";
+﻿import type { ValidatedCaseRecord } from "@/lib/schema";
+import jamesLeininger from "./james-leininger-james-m-huston-jr.json";
 
-// Canonical validated corpus. Add reviewed case JSON imports here as cases are accepted.
-export const validatedCases: ValidatedCaseRecord[] = [];
+export const validatedCases: ValidatedCaseRecord[] = [
+  jamesLeininger as ValidatedCaseRecord,
+];
