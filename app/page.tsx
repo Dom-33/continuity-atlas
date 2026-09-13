@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-import type { AnalysisResult, EvidenceStatus } from "@/lib/schema";
+import type { AnalysisResult, EvidenceStatus, SourceTier } from "@/lib/schema";
 import styles from "./continuity.module.css";
 
 const statusLabel: Record<EvidenceStatus, string> = {
@@ -9,6 +9,13 @@ const statusLabel: Record<EvidenceStatus, string> = {
   reported: "Reported claim",
   interpreted: "Interpretation",
   unknown: "Unknown",
+};
+
+const sourceTierLabel: Record<SourceTier, string> = {
+  primary: "Primary / archival",
+  academic: "Academic / research",
+  secondary: "Secondary",
+  weak: "Background / low-confidence",
 };
 
 const scoreLabels = [
@@ -94,6 +101,11 @@ export default function Home() {
       setLoading(false);
     }
   }
+
+  const coreSources =
+    result?.provenance.filter((source) => source.usedInAnalysis && source.tier !== "weak") ?? [];
+  const backgroundSources =
+    result?.provenance.filter((source) => !source.usedInAnalysis || source.tier === "weak") ?? [];
 
   return (
     <main className={styles.page}>
@@ -252,11 +264,27 @@ export default function Home() {
             </div>
 
             <article className={styles.card}>
-              <h3>Sources / Provenance</h3>
-              {result.provenance.length ? (
+              <div className={styles.sourceHeader}>
+                <div>
+                  <h3>Sources / Provenance</h3>
+                  <p className={styles.muted}>
+                    Core sources are separated from material found during search but not relied on for the main analysis.
+                  </p>
+                </div>
+                <span className={styles.auditCount}>{result.provenance.length} discovered</span>
+              </div>
+
+              <h4 className={styles.sourceSectionTitle}>Core evidence sources</h4>
+              {coreSources.length ? (
                 <ol className={styles.sources}>
-                  {result.provenance.map((source) => (
+                  {coreSources.map((source) => (
                     <li key={source.url}>
+                      <div className={styles.sourceMeta}>
+                        <span className={`${styles.sourceTier} ${styles[source.tier]}`}>
+                          {sourceTierLabel[source.tier]}
+                        </span>
+                        <span>{source.domain}</span>
+                      </div>
                       <a href={source.url} target="_blank" rel="noreferrer">
                         {source.title}
                       </a>
@@ -265,8 +293,30 @@ export default function Home() {
                   ))}
                 </ol>
               ) : (
-                <p className={styles.muted}>No source list was returned for this analysis.</p>
+                <p className={styles.muted}>No high-confidence source was linked directly to the final analysis.</p>
               )}
+
+              {backgroundSources.length ? (
+                <details className={styles.auditDetails}>
+                  <summary>Full search audit · {backgroundSources.length} additional sources</summary>
+                  <ol className={styles.sources}>
+                    {backgroundSources.map((source) => (
+                      <li key={source.url}>
+                        <div className={styles.sourceMeta}>
+                          <span className={`${styles.sourceTier} ${styles[source.tier]}`}>
+                            {sourceTierLabel[source.tier]}
+                          </span>
+                          <span>{source.domain}</span>
+                        </div>
+                        <a href={source.url} target="_blank" rel="noreferrer">
+                          {source.title}
+                        </a>
+                        <span>{source.url}</span>
+                      </li>
+                    ))}
+                  </ol>
+                </details>
+              ) : null}
             </article>
           </div>
         )}
