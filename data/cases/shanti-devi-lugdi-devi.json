@@ -1,0 +1,564 @@
+{
+  "id": "shanti-devi-lugdi-devi",
+  "status": "validated",
+  "reviewedAt": "2026-09-14T15:43:24.187Z",
+  "model": "gpt-6-astra",
+  "reviewNote": "Candidate exported from the Continuity Atlas review interface; commit only after human review.",
+  "analysis": {
+    "caseTitle": "Shanti Devi / Lugdi Devi",
+    "summary": "A substantial childhood identity claim with a surviving 1936 inquiry report, but investigation followed correspondence and meetings with the proposed previous family. Reported recognitions deserve scrutiny; the record does not establish that the information was acquired without ordinary contact. Continuity is not established.",
+    "evidence": [
+      {
+        "label": "Birth, death and onset chronology",
+        "value": "Rawat gives Lugdi’s death as October 4, 1925, following childbirth, and Shanti’s birth in Delhi as December 11, 1926; statements reportedly began around four. These dates imply one year, two months and seven days—not Rawat’s erroneous one year and ten months. Civil and hospital originals were not authenticated here.",
+        "status": "reported"
+      },
+      {
+        "label": "Documentation timing",
+        "value": "The May 1936 Theosophist reproduces the inquiry report. This is an identifiable near-contemporary source, but its childhood history is retrospective and follows family contact. No original pre-contact statement list was authenticated.",
+        "status": "documented"
+      },
+      {
+        "label": "Concrete identity claims",
+        "value": "Attributed claims included a cloth-merchant husband in Mathura named Kedar Nath Chaube, a son, the shop near Dwarkadhish temple, and a husband with reading glasses and a prominent facial mark. Original utterances are not independently recorded in the reviewed material.",
+        "status": "reported"
+      },
+      {
+        "label": "Contact chronology and contamination",
+        "value": "The report describes correspondence, cousin Kanji Mal’s interview, and Kedar Nath’s November 13–15, 1935 visit before the Mathura expedition on November 24—not November 15. Later recognitions therefore followed substantial contact.",
+        "status": "documented"
+      },
+      {
+        "label": "Witnesses, recognitions and controls",
+        "value": "Gupta, Sharma and Mathur reported route-finding, relative recognitions and understanding a local lavatory term. They instructed the driver to follow Shanti and prevented pedestrians leading; these precautions were not blinded tests.",
+        "status": "documented"
+      },
+      {
+        "label": "Independent verification boundary",
+        "value": "The report provides investigator observations, not independent verification of information provenance. No authenticated civil, medical or property records were located here to independently establish the detailed Lugdi biography.",
+        "status": "unknown"
+      },
+      {
+        "label": "Errors and post-hoc resolutions",
+        "value": "Accounts acknowledge initially mistaking Lugdi’s aunt for her mother. No hidden money was recovered; Kedar Nath reportedly said he had removed it. The yellow-house discrepancy was explained by an occupant’s repainting testimony. These are corrections or testimonial explanations, not three unqualified successes; a complete accuracy denominator is unavailable.",
+        "status": "documented"
+      },
+      {
+        "label": "Affect and preferences",
+        "value": "Rawat reports maternal affection toward Lugdi’s son, tears at family reunions, insistence on visiting Mathura, and statements about former food and clothing preferences. Such reactions indicate emotional investment but do not independently identify its cause.",
+        "status": "reported"
+      },
+      {
+        "label": "Abilities and physical traits",
+        "value": "Later accounts attribute surgical knowledge and Mathura dialect familiarity; no standardized skill assessment was located. The facial mark concerned the proposed husband, not a birthmark correspondence on Shanti. No independently documented bodily match was established.",
+        "status": "reported"
+      },
+      {
+        "label": "Institutional authority and competing investigations",
+        "value": "Nienhuys’s source-based skeptical review disputes the familiar claim that Gandhi organized the inquiry, noting its absence from early accounts. It also summarizes Nahata’s skeptical 1936 investigation and Sen’s defense. Gandhi’s supposed endorsement should not substitute for evidential controls. This review is secondary and explicitly skeptical.",
+        "status": "documented"
+      },
+      {
+        "label": "Time course, hypnosis and clinical limits",
+        "value": "Later accounts describe continued adult identification, remaining unmarried, and distressing dreams. A hypnosis session is dated April 13, 1936, after the original investigation; its material must be separated from spontaneous claims. No authenticated psychiatric diagnosis, clinical record or clinician reassessment was located. Narrative distress is not itself a diagnosis.",
+        "status": "reported"
+      }
+    ],
+    "conventional": {
+      "title": "H0 — Ordinary information acquisition and narrative development",
+      "assessment": "H0 remains viable and should be evaluated before invoking continuity; no single conventional reconstruction is proven.",
+      "support": [
+        "Family contact preceded the public recognition expedition, creating opportunities for information exchange and cueing.",
+        "Repeated questioning and later retellings complicate separation of initial statements from subsequent elaboration. This is an inference from the investigation chronology.",
+        "Reported mistakes and witness-supplied resolutions weaken claims of uniformly exact recall."
+      ],
+      "limits": [
+        "Opportunity for leakage does not demonstrate actual transmission of every detail.",
+        "The earliest name-and-address claim still requires a specific provenance explanation; deliberate fraud is not established."
+      ]
+    },
+    "continuity": {
+      "title": "H1 — Information or identity continuity from Lugdi to Shanti",
+      "assessment": "The combination of identity claims, recognitions and affect is compatible with H1, but compatibility is not discriminating evidence.",
+      "support": [
+        "If genuinely unlearned, the reported husband identification, household knowledge and recognitions would be relevant evidence.",
+        "The 1936 publication shows that the central story existed during childhood, rather than originating solely in adult recollection."
+      ],
+      "limits": [
+        "Pre-contact provenance, blinding and independent historical authentication are inadequate.",
+        "Emotional conviction does not establish continuity, and explanations supplied after mismatches cannot be treated as independent predictions.",
+        "Between-lives narratives provide no independently verifiable identity bridge."
+      ]
+    },
+    "scores": {
+      "informationStrength": 3,
+      "sourceQuality": 3,
+      "lowContamination": 1,
+      "anomalyStrength": 2,
+      "total": 9
+    },
+    "patterns": [
+      "Like Swarnlata Mishra in the supplied validated corpus, documentation before a public reunion does not necessarily mean documentation before contact with knowledgeable informants.",
+      "Like James Leininger in the supplied corpus, the central issue is information provenance rather than merely finding a deceased person who fits the story."
+    ],
+    "nextHypothesis": "Test whether distinctive details first appear before or after knowledgeable-family contact. Locate the original 1935 correspondence, inquiry notes and earliest press reports; construct a dated claim ledger preserving errors and wording changes, then compare it with independently sourced Lugdi records.",
+    "uncertainty": "The evidence cannot decisively discriminate H0 from H1; this does not make them equally supported. Research located a near-contemporary report and later investigator and skeptical accounts, but not authenticated pre-contact originals or independent medical records. The 9/20 score ranks evidential strength, not reincarnation probability; residual anomaly reflects unresolved reports, not a demonstrated paranormal effect.",
+    "provenance": [
+      {
+        "title": "psi-encyclopedia.spr.ac.uk",
+        "url": "https://psi-encyclopedia.spr.ac.uk/articles/shanti-devi-reincarnation-case/",
+        "domain": "psi-encyclopedia.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "carolbowman.com",
+        "url": "https://www.carolbowman.com/dr-ian-stevenson/case-shanti-devi",
+        "domain": "carolbowman.com",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "en.teopedia.org",
+        "url": "https://en.teopedia.org/w/images/7/70/Theosophist_v057_n08_may_1936.pdf",
+        "domain": "en.teopedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "skepsis.nl",
+        "url": "https://skepsis.nl/shanti-devi/?utm_source=openai",
+        "domain": "skepsis.nl",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Shanti_Devi",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "psi.circle-interactive.co.uk",
+        "url": "https://psi.circle-interactive.co.uk/articles/shanti-devi-reincarnation-case/",
+        "domain": "psi.circle-interactive.co.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "psi-encyclopedia.spr.ac.uk",
+        "url": "https://psi-encyclopedia.spr.ac.uk/sites/default/files/ebook/article/shanti_devi_reincarnation_case-813.pdf",
+        "domain": "psi-encyclopedia.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "lohiatoday.com",
+        "url": "https://lohiatoday.com/wp-content/uploads/2018/09/mmnr-05-fragmentsofaprisonersdiary.pdf",
+        "domain": "lohiatoday.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "titusrivas.nl",
+        "url": "https://www.titusrivas.nl/public/articles/read/667",
+        "domain": "titusrivas.nl",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "bluefields.eu",
+        "url": "https://www.bluefields.eu/shanti-devi-reincarnation-case/",
+        "domain": "bluefields.eu",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "kiwix.drnathanhutchins.com",
+        "url": "https://kiwix.drnathanhutchins.com/content/wikipedia_en_all_maxi_2026-02/Shanti_Devi",
+        "domain": "kiwix.drnathanhutchins.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "dyerbolical.com",
+        "url": "https://dyerbolical.com/shanti-devi-and-the-mathura-match-what-she-claimed-and-what-witnesses-reported/",
+        "domain": "dyerbolical.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "theunexplainedmysteries.com",
+        "url": "https://www.theunexplainedmysteries.com/reincarnation-of-shanti-devi/",
+        "domain": "theunexplainedmysteries.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "imagomundi.biz",
+        "url": "https://www.imagomundi.biz/enzyklopaedie/devi-shanti/",
+        "domain": "imagomundi.biz",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "skepsis.nl",
+        "url": "https://skepsis.nl/shanti-devi/",
+        "domain": "skepsis.nl",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "jamesgmatlock.com",
+        "url": "https://jamesgmatlock.com/wp-content/uploads/2013/12/Past-Life-Memory-Case-Studies.pdf",
+        "domain": "jamesgmatlock.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "theravada.gr",
+        "url": "https://www.theravada.gr/wp-content/uploads/2025/03/Reincarnation-or-Rebirth-Scientific-Research-and-Evidence.pdf",
+        "domain": "theravada.gr",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "iapsop.com",
+        "url": "https://iapsop.com/archive/materials/o_e_library_critic/oe_library_critic_v26_1938-1939.pdf",
+        "domain": "iapsop.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "dyerbolical.com",
+        "url": "https://dyerbolical.com/the-shanti-devi-reincarnation-case-commission-findings-and-enduring-disputes/",
+        "domain": "dyerbolical.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "es.wikipedia.org",
+        "url": "https://es.wikipedia.org/wiki/Shanti_Devi",
+        "domain": "es.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "pt.wikipedia.org",
+        "url": "https://pt.wikipedia.org/wiki/Shanti_Devi",
+        "domain": "pt.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "homoreligiosus.be",
+        "url": "https://www.homoreligiosus.be/wp-content/uploads/2024/12/TI37.pdf",
+        "domain": "homoreligiosus.be",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Hitler%27s_Priestess",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Shanti_Devi_%28disambiguation%29",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/A_Warning_to_the_Hindus",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "arxiv.org",
+        "url": "https://arxiv.org/abs/1611.00036",
+        "domain": "arxiv.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "skepsis.nl",
+        "url": "https://skepsis.nl/boeken/sn1-reincarnatie/",
+        "domain": "skepsis.nl",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "s3.us-west-1.wasabisys.com",
+        "url": "https://s3.us-west-1.wasabisys.com/luminist/EB/S/Stevenson%20-%2020%20Cases%20Suggestive%20of%20Reincarnation.pdf",
+        "domain": "s3.us-west-1.wasabisys.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "citeseerx.ist.psu.edu",
+        "url": "https://citeseerx.ist.psu.edu/document?doi=f51e0c1c6c34aa2a569934089a6c7ebcf8da11aa&repid=rep1&type=pdf",
+        "domain": "citeseerx.ist.psu.edu",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "open-data.spr.ac.uk",
+        "url": "https://open-data.spr.ac.uk/sites/default/files/ebook/article/shanti_devi_reincarnation_case-813.pdf",
+        "domain": "open-data.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "rsdebate.nic.in",
+        "url": "https://rsdebate.nic.in/bitstream/123456789/414888/1/PD_109_22051979_19_p91_p210_14.pdf",
+        "domain": "rsdebate.nic.in",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "courtkutchehry.com",
+        "url": "https://www.courtkutchehry.com/judgements/890802/bharat-petroleum-corporation-ltd-appellant-hash-prafulla-kumar-roychowdhury-and-another-responde/",
+        "domain": "courtkutchehry.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "ecoledelartdevivre.net",
+        "url": "https://ecoledelartdevivre.net/lincroyable-histoire-de-shanti-devi/",
+        "domain": "ecoledelartdevivre.net",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "titusrivas.nl",
+        "url": "https://titusrivas.nl/public/articles/read/380",
+        "domain": "titusrivas.nl",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "de-avanzada.blogspot.com",
+        "url": "https://de-avanzada.blogspot.com/2025/04/shanti-devi.html?m=0",
+        "domain": "de-avanzada.blogspot.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "hasp.ub.uni-heidelberg.de",
+        "url": "https://hasp.ub.uni-heidelberg.de/catalog/view/1155/2143/104340",
+        "domain": "hasp.ub.uni-heidelberg.de",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "ignaciodarnaude.com",
+        "url": "https://www.ignaciodarnaude.com/revelacion_extraterrestre/Rev.American%20Theosophist.htm",
+        "domain": "ignaciodarnaude.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "theosofie.nl",
+        "url": "https://www.theosofie.nl/wp-content/uploads/2019/03/Bibliografie-Reincarnatie.pdf",
+        "domain": "theosofie.nl",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "cambridge.org",
+        "url": "https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/rudra-kavi-and-the-mughal-elite-a-codicological-reappraisal/65CD7158EB584D64F6BBB549DF8EA298",
+        "domain": "cambridge.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "d1sz3qqkkatpb2.cloudfront.net",
+        "url": "https://d1sz3qqkkatpb2.cloudfront.net/resources/assets/readMaterial/66/Centre%20Address%20Book%20%28Aug%202017%29%20%28E%29.pdf",
+        "domain": "d1sz3qqkkatpb2.cloudfront.net",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "blavatskytheosophy.com",
+        "url": "https://blavatskytheosophy.com/the-teachings-of-bhavani-shankar/",
+        "domain": "blavatskytheosophy.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "the-laws.com",
+        "url": "https://www.the-laws.com/Encyclopedia/browse/all/2009/cases",
+        "domain": "the-laws.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "yumpu.com",
+        "url": "https://www.yumpu.com/en/document/view/29130819/the-bhagavad-gita-theosofische-vereniging-in-nederland",
+        "domain": "yumpu.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "aadharhousing.com",
+        "url": "https://aadharhousing.com/s3-path?url=uploads%2FProperty_possessed%2FRBi+Properties+Possessed+Data_Dec+24.pdf.pdf",
+        "domain": "aadharhousing.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "thetedkarchive.com",
+        "url": "https://www.thetedkarchive.com/library/philip-goldberg-american-veda",
+        "domain": "thetedkarchive.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "slideshare.net",
+        "url": "https://www.slideshare.net/slideshow/paul-brunton-and-ramana-maharshi/12111780",
+        "domain": "slideshare.net",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "answeringexams.com",
+        "url": "https://answeringexams.com/tag/1462/page/2/",
+        "domain": "answeringexams.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "bkdrluhar.com",
+        "url": "https://bkdrluhar.com/041.%20BK%20Database/02.%20BK%20Centers/Pdf/001.%20Address%20Book%20-%2015-08-17.pdf",
+        "domain": "bkdrluhar.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "scribd.com",
+        "url": "https://www.scribd.com/document/94947267/C-J-Ducasse-A-Critical-Examination-of-the-Belief-in-a-Life-After-Death",
+        "domain": "scribd.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/CreepyWikipedia/comments/wwhuo0/shanti_devi_wikipedia/",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/hinduism/comments/1s45mcw/search_and_found_some_stories_my_inquary_beyond/",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/librandu/comments/1sa7anp/apparently_the_girls_murder_was_done_by_her/",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/u_mysteryaddictmom/comments/vh8r29",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/wikipedia/comments/1sj8h6r/shanti_devi_was_an_indian_woman_who_claimed_to/",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/sneakysushiii/comments/1jgv8is",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/allthingmystery/comments/1725n08",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/atheismindia/comments/1mw5qe1/thoughts_on_shanti_devi_reincarnation_case/",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/Reincarnation/comments/gpba4y",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/HighStrangeness/comments/ixwbtx/the_reincarnation_of_shanti_devi_the_girl_who/",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/mrballen/comments/nmncnd",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/JaipurRoyalFacade/comments/1vrphx1/an_incomplete_truth/",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "scribd.com",
+        "url": "https://www.scribd.com/document/1015333441/New-Clothes-for-Old-Souls-Worldwide-Evidence-for-Playfair-Guy-Lyon-1st-Edition-February-1-2007-London-Druze-Heritage-Foundation-978",
+        "domain": "scribd.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "scribd.com",
+        "url": "https://www.scribd.com/document/884885795/Shanti-Devi-Reincarnation-Case-Psi-Encyclopedia",
+        "domain": "scribd.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "scribd.com",
+        "url": "https://www.scribd.com/document/848390510/Hindi-Publishing-in-Colonial-Lucknow",
+        "domain": "scribd.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "scribd.com",
+        "url": "https://www.scribd.com/document/435422441/Sale-Data-16-17",
+        "domain": "scribd.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      }
+    ]
+  }
+}
