@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
+import { validatedCases } from "@/data/cases";
 import type { AnalysisResult, EvidenceStatus, SourceTier, ValidatedCaseRecord } from "@/lib/schema";
 import styles from "./continuity.module.css";
 
@@ -32,6 +33,13 @@ function slugify(value: string) {
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "")
     .slice(0, 70) || "case";
+}
+
+function formatReviewedDate(value: string) {
+  const date = new Date(value);
+  return Number.isNaN(date.getTime())
+    ? value
+    : new Intl.DateTimeFormat("en", { year: "numeric", month: "short", day: "numeric" }).format(date);
 }
 
 function ExplanationBlock({
@@ -172,6 +180,69 @@ export default function Home() {
             <li>Compare cases and generate a testable next hypothesis</li>
           </ol>
         </aside>
+      </section>
+
+      <section className={styles.corpus}>
+        <div className={styles.corpusHeader}>
+          <div>
+            <p className={styles.sectionLabel}>Validated corpus</p>
+            <h2>{validatedCases.length} human-reviewed cases</h2>
+            <p className={styles.muted}>These analyses are persisted in the repository and supplied to Astra for cross-case comparison. Open a case to inspect the saved analysis read-only.</p>
+          </div>
+          <span className={styles.corpusCount}>{validatedCases.length} cases</span>
+        </div>
+        <div className={styles.corpusList}>
+          {validatedCases.map((record) => {
+            const analysis = record.analysis;
+            return (
+              <details key={record.id} className={styles.corpusCase}>
+                <summary>
+                  <div>
+                    <strong>{analysis.caseTitle}</strong>
+                    <span>{analysis.scores.total}/20 · reviewed {formatReviewedDate(record.reviewedAt)}</span>
+                  </div>
+                  <span className={styles.corpusOpenLabel}>Read analysis</span>
+                </summary>
+                <div className={styles.corpusCaseBody}>
+                  <p className={styles.corpusSummary}>{analysis.summary}</p>
+                  <div className={styles.corpusAnalysisGrid}>
+                    <section>
+                      <h4>Case Evidence Map</h4>
+                      <div className={styles.evidenceList}>
+                        {analysis.evidence.map((item) => (
+                          <div key={`${record.id}-${item.label}-${item.value}`}>
+                            <span className={`${styles.status} ${styles[item.status]}`}>{statusLabel[item.status]}</span>
+                            <strong>{item.label}</strong>
+                            <p>{item.value}</p>
+                          </div>
+                        ))}
+                      </div>
+                    </section>
+                    <section>
+                      <h4>Competing Explanations</h4>
+                      <ExplanationBlock {...analysis.conventional} />
+                      <ExplanationBlock {...analysis.continuity} />
+                      <p className={styles.uncertainty}>{analysis.uncertainty}</p>
+                    </section>
+                  </div>
+                  <div className={styles.corpusAnalysisGrid}>
+                    <section>
+                      <h4>Evidence score</h4>
+                      <div className={styles.scoreList}>{scoreLabels.map(([label, key]) => <div key={`${record.id}-${key}`}><span>{label}</span><strong>{analysis.scores[key]}/5</strong></div>)}</div>
+                    </section>
+                    <section>
+                      <h4>Cross-Case Patterns</h4>
+                      <ul className={styles.patterns}>{analysis.patterns.map((pattern) => <li key={`${record.id}-${pattern}`}>{pattern}</li>)}</ul>
+                      <h4>Next testable hypothesis</h4>
+                      <p>{analysis.nextHypothesis}</p>
+                    </section>
+                  </div>
+                  <p className={styles.corpusProvenanceNote}>{analysis.provenance.length} source records preserved in this validated analysis.</p>
+                </div>
+              </details>
+            );
+          })}
+        </div>
       </section>
 
       <section className={styles.outputs} aria-live="polite">
