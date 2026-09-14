@@ -1,0 +1,395 @@
+{
+  "id": "purnima-ekanayake-jinadasa-perera",
+  "status": "validated",
+  "reviewedAt": "2026-09-14T17:08:37.439Z",
+  "model": "gpt-6-astra",
+  "reviewNote": "Candidate exported from the Continuity Atlas review interface; commit only after human review.",
+  "analysis": {
+    "caseTitle": "Purnima Ekanayake / Jinadasa Perera",
+    "summary": "A substantive but retrospectively documented childhood claim. Trade details and reported birthmark–injury correspondence warrant scrutiny, but investigation followed identification and family contact. Information provenance remains unresolved; continuity is not established.",
+    "evidence": [
+      {
+        "label": "Birth, death and onset chronology",
+        "value": "Haraldsson’s original chronology gives Jinadasa’s death as April 9, 1985; Purnima’s birth as August 24, 1987; and speech onset around 1990. These dates were not independently authenticated here.",
+        "status": "documented"
+      },
+      {
+        "label": "Identification and documentation timing",
+        "value": "Search: March 1993; family visit: April 1993; newspaper article: August 29, 1993; investigation: September 1996–March 1999. No pre-contact statement record existed, according to Haraldsson. The newspaper original was not authenticated here.",
+        "status": "documented"
+      },
+      {
+        "label": "Concrete claims",
+        "value": "Attributed claims included male incense-making, Ambiga and Geta Pitcha brands, a nearby pond and brickworks, wife Kusumi, mother Simona, two younger brothers, Rahula School and fatal collision while cycling. Their pre-contact attribution rests on retrospective testimony.",
+        "status": "reported"
+      },
+      {
+        "label": "Accuracy and errors",
+        "value": "Haraldsson classified 20 statements: 14 matches, three incorrect and three indeterminate. Errors concerned maternal complexion, a two-story school during Jinadasa’s attendance, and leaving school to manufacture incense before he entered that trade. This is a reconstructed list, not a prospective accuracy test.",
+        "status": "documented"
+      },
+      {
+        "label": "Witnesses and recognitions",
+        "value": "Teacher Sumanasiri located the proposed family. Wijisiri later attributed to Purnima recognition of him, changed packaging and his knee injury. These were uncontrolled encounters, not blinded recognition tests; subsequent agreement cannot establish original information provenance.",
+        "status": "reported"
+      },
+      {
+        "label": "Contamination channels",
+        "value": "Temple television exposure and travel preceded identification; Sumanasiri connected the families. The mother already entertained reincarnation. Ambiga advertising and garden jasmine supplied possible name associations. Crucially, the bicycle detail entered parental confirmation after Haraldsson interviewed Sumanasiri. Actual transmission is unproved.",
+        "status": "documented"
+      },
+      {
+        "label": "Physical traits and timing",
+        "value": "A published photograph documents later chest marks; neonatal presence rests on maternal testimony. Purnima’s injury-to-mark explanation emerged during family contact, not demonstrably before it.",
+        "status": "documented"
+      },
+      {
+        "label": "Medical correspondence and independence",
+        "value": "Haraldsson reports obtaining Jinadasa’s autopsy. A separate scholarly summary describes left rib fractures and extensive diagonal abrasions across the torso. This supports regional correspondence, not a uniquely identifying shape match. The original medical record was not independently authenticated here.",
+        "status": "documented"
+      },
+      {
+        "label": "Abilities and time course",
+        "value": "She described incense manufacture during the post-contact investigation and continued speaking at ten. No controlled demonstration established unlearned practical skill.",
+        "status": "reported"
+      },
+      {
+        "label": "Affect, phobias and psychological interpretation",
+        "value": "Haraldsson described dissociative tendencies and low suggestibility, not a formal disorder. No authenticated clinical diagnosis, phobia assessment or later clinical reassessment was located.",
+        "status": "unknown"
+      },
+      {
+        "label": "Between-life narrative",
+        "value": "She reportedly described floating, observing mourners and approaching light before birth. No independently verified observation establishes these experiences as events outside ordinary consciousness.",
+        "status": "reported"
+      },
+      {
+        "label": "Chronological inconsistency in later retelling",
+        "value": "Haraldsson’s later chapter inconsistently gives September 1985 and April 1985 for the death. The original chronology favors April 9, 1985; the inconsistency should not silently propagate.",
+        "status": "documented"
+      }
+    ],
+    "conventional": {
+      "title": "H0 — Ordinary acquisition, reconstruction and coincidental matching",
+      "assessment": "H0 remains viable and must be evaluated before invoking continuity. The strongest limitation is retrospective reconstruction after contact.",
+      "support": [
+        "The teacher-mediated search and subsequent encounters provide opportunities for feedback and information leakage; opportunity is not proof of transmission.",
+        "Haraldsson explicitly acknowledges possible forgetting, suppression or reshaping of mismatching statements after identification.",
+        "Analytically, overlap with a broad injury region is less discriminating than a predefined, blinded anatomical match."
+      ],
+      "limits": [
+        "No demonstrated ordinary transmission chain explains every specific claim.",
+        "The absence of controlled evidence does not establish fabrication, deliberate coaching or a psychological disorder."
+      ]
+    },
+    "continuity": {
+      "title": "H1 — Information or traits persisting across lives",
+      "assessment": "The account is compatible with H1, but compatibility does not distinguish it from H0.",
+      "support": [
+        "The reported conjunction of trade, brand names, family details and manner of death is more informative than a generic previous-life narrative.",
+        "Haraldsson describes the families as previously unacquainted and geographically separated. If independently established, that would constrain direct prior familiarity.",
+        "The reported physical correspondence adds a different evidential category, although its causal significance remains unestablished."
+      ],
+      "limits": [
+        "Combining claims does not make them independent evidence.",
+        "H1 has no demonstrated mechanism or uniquely successful prediction in this case.",
+        "An anomaly cannot be established merely by leaving some testimony unexplained."
+      ]
+    },
+    "scores": {
+      "informationStrength": 3,
+      "sourceQuality": 3,
+      "lowContamination": 1,
+      "anomalyStrength": 2,
+      "total": 9
+    },
+    "patterns": [
+      "Within the supplied corpus, Shanti Devi and Swarnlata likewise illustrate why contact chronology matters more than later witness agreement.",
+      "Hanumant Saxena provides a methodological parallel: photographed marks and medical-derived correspondence do not independently establish neonatal appearance or continuity."
+    ],
+    "nextHypothesis": "Test whether specificity increased after identification: recover the August 1993 newspaper original and surviving interview notes, separate each witness’s earliest claim inventory, and compare pre-contact versus post-contact details. Independently authenticate the autopsy and seek neonatal photographs before commissioning blinded anatomical matching.",
+    "uncertainty": "The available evidence cannot decisively discriminate H0 from H1; this does not make them equally supported. Research located the investigator’s paper, later chapter and scholarly summaries, but not authenticated pre-contact records or original medical documentation. The 9/20 score ranks evidential strength, not reincarnation probability; residual anomaly reflects unresolved reports rather than a demonstrated paranormal effect.",
+    "provenance": [
+      {
+        "title": "psi-encyclopedia.spr.ac.uk",
+        "url": "https://psi-encyclopedia.spr.ac.uk/articles/purnima-ekanayake-reincarnation-case/",
+        "domain": "psi-encyclopedia.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "rune.ws",
+        "url": "https://rune.ws/spesBoker/BIRTHMARKS_PREVIOUS-LIFE%20.pdf",
+        "domain": "rune.ws",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "michaelsudduth.com",
+        "url": "https://michaelsudduth.com/wp-content/uploads/2014/02/Haraldsson-Cases-of-the-Reincarnation-Type.pdf",
+        "domain": "michaelsudduth.com",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "Birthmarks in Reincarnation Cases – Psi Encyclopedia",
+        "url": "https://psi-encyclopedia.spr.ac.uk/articles/birthmarks-reincarnation-cases?utm_source=openai",
+        "domain": "psi-encyclopedia.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "researchgate.net",
+        "url": "https://www.researchgate.net/publication/350093495_Erlendur_Haraldsson_An_Appreciation",
+        "domain": "researchgate.net",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "researchgate.net",
+        "url": "https://www.researchgate.net/publication/329247988_Is_Consciousness_Transfer_Involved_in_Reincarnation_Type_cases",
+        "domain": "researchgate.net",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "psi-encyclopedia.spr.ac.uk",
+        "url": "https://psi-encyclopedia.spr.ac.uk/sites/default/files/ebook/article/purnima_ekanayake_past_life-333.pdf",
+        "domain": "psi-encyclopedia.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "open-data.spr.ac.uk",
+        "url": "https://open-data.spr.ac.uk/sites/default/files/ebook/article/purnima_ekanayake_reincarnation_case-333.pdf",
+        "domain": "open-data.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "neuroquantology.com",
+        "url": "https://neuroquantology.com/open-access/Do%2BReincarnation-type%2BCases%2BInvolve%2BConsciousness%2BTransfer%253F_2007/?download=true",
+        "domain": "neuroquantology.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "iuris.lk",
+        "url": "https://iuris.lk/legal-library/slr/2000/volume-3",
+        "domain": "iuris.lk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "oavcrime.com.br",
+        "url": "https://oavcrime.com.br/2011/11/26/grandes-misterios-purnima-ekanayake/",
+        "domain": "oavcrime.com.br",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reincarnationresearch.com",
+        "url": "https://reincarnationresearch.com/tag/reincarnation-gender-change/",
+        "domain": "reincarnationresearch.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "sri-lanka.vlex.com",
+        "url": "https://sri-lanka.vlex.com/vid/gunatileka-ep-02-99-954462798",
+        "domain": "sri-lanka.vlex.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "laboratorioespirita.blogspot.com",
+        "url": "https://laboratorioespirita.blogspot.com/2025/03/purnima-ekanayake-caso-de-reencarnacao1.html",
+        "domain": "laboratorioespirita.blogspot.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reincarnationresearch.com",
+        "url": "https://reincarnationresearch.com/tag/erlendur-haraldsson/",
+        "domain": "reincarnationresearch.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "sri-lanka.vlex.com",
+        "url": "https://sri-lanka.vlex.com/vid/nissanka-v-the-state-933013372",
+        "domain": "sri-lanka.vlex.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "iuris.lk",
+        "url": "https://iuris.lk/legal-library/slr/2000/volume-2",
+        "domain": "iuris.lk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "washingtonpost.com",
+        "url": "https://www.washingtonpost.com/archive/politics/2000/10/09/sri-lankan-olympic-medalist-greeted-by-controversy-at-home/6128b828-cdf3-4f64-8d6f-6d759c493421/",
+        "domain": "washingtonpost.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/2000_in_Sri_Lanka",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/List_of_Sri_Lankan_films_of_the_2000s",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/11th_Parliament_of_Sri_Lanka",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/10th_Parliament_of_Sri_Lanka",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/List_of_Sri_Lankan_films_of_the_1990s",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Jinadasa",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "hi.academia.edu",
+        "url": "https://hi.academia.edu/Departments/Department_of_Psychology/Documents",
+        "domain": "hi.academia.edu",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reinkarnation.de",
+        "url": "https://www.reinkarnation.de/reinkarnation---kinder.html",
+        "domain": "reinkarnation.de",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "psi-encyclopedia.spr.ac.uk",
+        "url": "https://psi-encyclopedia.spr.ac.uk/sites/default/files/ebook/article/birthmarks_in_reincarnation_cases-250.pdf",
+        "domain": "psi-encyclopedia.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "slideshare.net",
+        "url": "https://www.slideshare.net/slideshow/reincarnation-the-scientific-evidence/56089894",
+        "domain": "slideshare.net",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "psi-encyclopedia.spr.ac.uk",
+        "url": "https://psi-encyclopedia.spr.ac.uk/articles/birthmarks-reincarnation-cases",
+        "domain": "psi-encyclopedia.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "hi.academia.edu",
+        "url": "https://hi.academia.edu/ErlendurHaraldsson",
+        "domain": "hi.academia.edu",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "deathpoints.com",
+        "url": "https://deathpoints.com/2023/04/04/past-life-as-an-incense-maker/",
+        "domain": "deathpoints.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "open-data.spr.ac.uk",
+        "url": "https://open-data.spr.ac.uk/sites/default/files/ebook/article/birthmarks_in_reincarnation_cases-250.pdf",
+        "domain": "open-data.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "espiritismoparainiciantes.blogspot.com",
+        "url": "https://espiritismoparainiciantes.blogspot.com/2018/?m=0",
+        "domain": "espiritismoparainiciantes.blogspot.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "sterbebegleitung-jenseitskontakte.de",
+        "url": "https://www.sterbebegleitung-jenseitskontakte.de/JOURNAL-ARTICLES.htm",
+        "domain": "sterbebegleitung-jenseitskontakte.de",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "jamesgmatlock.com",
+        "url": "https://jamesgmatlock.com/resources/researchers/haraldsson/",
+        "domain": "jamesgmatlock.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "igpp.de",
+        "url": "https://www.igpp.de/allg/ZfA/ZfA_2021_1/Mulacz_Haraldsson_ZfA_2021-1.pdf",
+        "domain": "igpp.de",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "scribd.com",
+        "url": "https://www.scribd.com/document/814092054/Scientific-Evidence-for-Reincarnation-NDEs-and-Karma-With-Personal-Stories",
+        "domain": "scribd.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/Reincarnation/comments/w3iypj",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/allthingmystery/comments/wzsnpq",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "scribd.com",
+        "url": "https://www.scribd.com/document/1075327820/015-Sllr-Sllr-2007-v-1-Perera-v-Caldera-and-Others",
+        "domain": "scribd.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      }
+    ]
+  }
+}
