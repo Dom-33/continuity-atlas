@@ -1,0 +1,802 @@
+{
+  "id": "mati-as-de-stefano-autobiographical-past-life-and-cosmic-memory-claims",
+  "status": "validated",
+  "reviewedAt": "2026-09-14T14:42:25.933Z",
+  "model": "gpt-6-astra",
+  "reviewNote": "Candidate exported from the Continuity Atlas review interface; commit only after human review.",
+  "analysis": {
+    "caseTitle": "Matías De Stefano — autobiographical past-life and cosmic-memory claims",
+    "summary": "De Stefano publicly describes memories of multiple lives, Atlantis and other dimensions. The available material documents his adult testimony and spiritual teaching, not independently verified continuity across lives. The central evidential weaknesses are retrospective childhood chronology, unauthenticated early records, uncontrolled information exposure and no independently established previous identity. Clinical claims also remain retrospective testimony rather than authenticated medical findings.",
+    "evidence": [
+      {
+        "label": "Birth and onset chronology",
+        "value": "His July 8, 2022 autobiographical article gives August 4, 1987, Venado Tuerto, Argentina, as his birth date; daily contact with other-dimensional beings from seven; expanded past-life memories at twelve; and cosmic memories at sixteen. These are adult recollections, not contemporaneous childhood observations.",
+        "status": "reported"
+      },
+      {
+        "label": "Chronological discrepancies",
+        "value": "Gaia’s separate biography gives November 12, 1987, rather than his self-reported August 4, and places memories at age three. Different onset ages might distinguish early experiences from later elaboration, but the birth-date conflict is unresolved. Neither account was checked against a civil birth record.",
+        "status": "documented"
+      },
+      {
+        "label": "Concrete previous-life claims",
+        "value": "He describes Nile memories approximately 12,000 years ago during Atlantis, alongside lives elsewhere and beyond Earth. A news account attributes two prominent lives to him: a woman in an Atlantean colony associated with pre-Egyptian civilization, and someone born into a blacksmith family near present-day Stavanger roughly 900 years earlier. No independently identified deceased counterpart accompanies these accounts.",
+        "status": "reported"
+      },
+      {
+        "label": "Documentation timing and childhood artifacts",
+        "value": "His official timeline places his first public conference in 2009. A blog post dated June 24, 2011 reproduces Ater Tumti material; a 2021 Gaia-series listing describes childhood drawings. These establish adult-era publication or retrospective presentation, not authenticated dates or custody of childhood originals. No prospectively registered childhood statement list was located.",
+        "status": "documented"
+      },
+      {
+        "label": "Independent verification and error accounting",
+        "value": "The reviewed sources present narratives rather than a claim-by-claim investigation. No independently authenticated previous identity, blinded recognition test, or complete inventory of correct, incorrect and untestable statements was located. An accuracy rate therefore cannot be calculated; extensive narrative detail must not be counted as verified information.",
+        "status": "unknown"
+      },
+      {
+        "label": "Witnesses",
+        "value": "A 2011 spiritual blog attributes childhood drawings and unfamiliar-language writing to his mother, Claudia. Its author endorses his veracity without supplying a reproducible verification protocol. His later interviews also mention classmates and teachers, but these are not separately collected, contemporaneous witness statements.",
+        "status": "reported"
+      },
+      {
+        "label": "Information-contamination channels",
+        "value": "He says he and his mother sought spiritual help around age seventeen, before the official 2009 public-teaching milestone. Later courses, travel and teaching provide additional exposure channels. This chronology permits elaboration after contact with spiritual interpretations, although actual borrowing is unproved. A self-described agnostic upbringing does not establish informational isolation.",
+        "status": "interpreted"
+      },
+      {
+        "label": "Affect, preferences and time course",
+        "value": "He reports childhood distress and longing for people he remembered but could not find, followed by an adult teaching vocation rather than disappearance of the claims. These reports indicate personal significance, not historical accuracy. No independently documented, target-specific phobia or preference correspondence was located.",
+        "status": "reported"
+      },
+      {
+        "label": "Abilities and physical traits",
+        "value": "Childhood hieroglyphic drawings and unfamiliar-language writing are reported, but no blinded linguistic assessment, authenticated unlearned-language performance or controlled exceptional-knowledge test was located. No documented birthmark, congenital anomaly or injury correspondence with a proposed previous person was found in the reviewed material.",
+        "status": "unknown"
+      },
+      {
+        "label": "Clinical interpretation: suspected versus formal diagnosis",
+        "value": "In adult interviews he says psychologists offered differing interpretations, including schizophrenia. In Know Thyself episode 18, released November 1, 2022, he describes a psychologist suspecting schizophrenia and recommending treatment elsewhere. This is his later account of a clinician’s opinion—not an independently documented formal diagnosis. No clinical record was located.",
+        "status": "reported"
+      },
+      {
+        "label": "Alleged later reassessment or apology",
+        "value": "Around 16 minutes into that Know Thyself interview, he says the psychologist later sought forgiveness after encountering others with similar experiences. The accessible transcript is third-party; no identified clinician’s statement or authenticated reassessment was located. The alleged apology is therefore uncorroborated, and even a verified apology would not establish continuity.",
+        "status": "reported"
+      }
+    ],
+    "conventional": {
+      "title": "H0 — experiences and narratives arising within the present life",
+      "assessment": "H0 remains sufficient as a working explanation: imaginative experiences, ordinary information acquisition and retrospective interpretation have not been excluded. This is not a psychiatric diagnosis or an allegation of deception.",
+      "support": [
+        "The accessible childhood chronology comes through adult retellings, leaving the original content and subsequent changes uncontrolled.",
+        "Reported spiritual consultation preceded public teaching, providing a concrete opportunity for interpretive influence.",
+        "The reviewed presentations do not supply independently verified identity matches or controlled knowledge tests requiring an explanation beyond present-life processes."
+      ],
+      "limits": [
+        "No specific source-to-statement transmission chain has been demonstrated.",
+        "Missing childhood and clinical records prevent reconstructing the experiences’ origins; schizophrenia cannot responsibly be adopted as an established explanation."
+      ]
+    },
+    "continuity": {
+      "title": "H1 — information or experience continuing across lives",
+      "assessment": "The testimony is compatible with H1 at the level of subjective experience, but no discriminating evidence for continuity was located.",
+      "support": [
+        "He describes experiences as spontaneous and childhood-originating, rather than merely conclusions reached during adult historical research.",
+        "His accounts include geographically situated lives and emotional relationships, offering potential material for historical testing if early records can be authenticated."
+      ],
+      "limits": [
+        "Claimed early onset, vividness and emotional intensity do not establish an external source for the information.",
+        "No authenticated pre-exposure record or independently identified previous person currently anchors the proposed continuity.",
+        "Reports of similar experiences in others—and the alleged clinician apology—cannot substitute for independent verification."
+      ]
+    },
+    "scores": {
+      "informationStrength": 1,
+      "sourceQuality": 2,
+      "lowContamination": 0,
+      "anomalyStrength": 0,
+      "total": 3
+    },
+    "patterns": [
+      "The supplied Leininger, Saxena and Mishra cases all make information provenance and documentation timing decision-critical. The same methodological issue applies here; it is not evidence of a shared supernatural cause.",
+      "Unlike those three comparison cases, this review did not locate a specific independently established deceased counterpart against which De Stefano’s statements could be systematically scored."
+    ],
+    "nextHypothesis": "Test whether any demonstrably childhood-produced document contains specific, obscure historical information recorded before relevant exposure. Authenticate originals and custody, register every claim before matching, reconstruct educational and spiritual contacts, and use independent blinded experts to score both matches and errors. Otherwise classify this primarily as autobiographical spiritual testimony rather than a verified identity-correspondence case.",
+    "uncertainty": "The evidence cannot discriminate decisively between H0 and H1, and it does not make them equally supported. Research located first-person accounts, promotional biographies, interviews and derivative reporting, but not an independent case investigation, authenticated childhood archive or clinical record. The 3/20 score ranks evidential strength—not sincerity, mental health or the probability of reincarnation. Zero residual anomaly means none was established under adequate controls, not that every experience has been explained.",
+    "provenance": [
+      {
+        "title": "nextlevelsoul.com",
+        "url": "https://nextlevelsoul.com/matias-de-stefano/",
+        "domain": "nextlevelsoul.com",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "gaia.com",
+        "url": "https://www.gaia.com/es/article/mi-viaje-de-recordar?utm_source=openai",
+        "domain": "gaia.com",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "gaia.com",
+        "url": "https://www.gaia.com/person/matias-de-stefano?utm_source=openai",
+        "domain": "gaia.com",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "matiasdestefano.org",
+        "url": "https://matiasdestefano.org/about/?utm_source=openai",
+        "domain": "matiasdestefano.org",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "arcealejandra.blogspot.com",
+        "url": "https://arcealejandra.blogspot.com/2011/06/httpwww.html?m=0&utm_source=openai",
+        "domain": "arcealejandra.blogspot.com",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "chakaruna.com",
+        "url": "https://chakaruna.com/blogs/aubrey-marcus-podcast/re-membering-our-future-w-matias-de-stefano?utm_source=openai",
+        "domain": "chakaruna.com",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "meganoticias.cl",
+        "url": "https://www.meganoticias.cl/amp/mundo/287318-matias-de-stefano-nino-indigo-historia-del-mundo-vidas-pasadas-importancia-del-planeta-1yz.html?utm_source=openai",
+        "domain": "meganoticias.cl",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "podscripts.co",
+        "url": "https://podscripts.co/podcasts/know-thyself/e18-matias-de-stefano-is-reincarnation-real-our-9-dimensional-reality-explained-from-memory?utm_source=openai",
+        "domain": "podscripts.co",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "pubmed.ncbi.nlm.nih.gov",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17286890/",
+        "domain": "pubmed.ncbi.nlm.nih.gov",
+        "tier": "primary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "pubmed.ncbi.nlm.nih.gov",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1197515/",
+        "domain": "pubmed.ncbi.nlm.nih.gov",
+        "tier": "primary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "pubmed.ncbi.nlm.nih.gov",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19105085/",
+        "domain": "pubmed.ncbi.nlm.nih.gov",
+        "tier": "primary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "pubmed.ncbi.nlm.nih.gov",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27846438/",
+        "domain": "pubmed.ncbi.nlm.nih.gov",
+        "tier": "primary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "researchgate.net",
+        "url": "https://www.researchgate.net/profile/Matias-De-Stefano-Barbero",
+        "domain": "researchgate.net",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "matiasdestefano.org",
+        "url": "https://matiasdestefano.org/about/",
+        "domain": "matiasdestefano.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "gaia.com",
+        "url": "https://www.gaia.com/es/article/mi-viaje-de-recordar",
+        "domain": "gaia.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "matiasdestefano.org",
+        "url": "https://matiasdestefano.org/",
+        "domain": "matiasdestefano.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "meganoticias.cl",
+        "url": "https://www.meganoticias.cl/amp/mundo/287318-matias-de-stefano-nino-indigo-historia-del-mundo-vidas-pasadas-importancia-del-planeta-1yz.html",
+        "domain": "meganoticias.cl",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "psychedelicadventure.net",
+        "url": "https://www.psychedelicadventure.net/2012/12/",
+        "domain": "psychedelicadventure.net",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "videohighlight.com",
+        "url": "https://videohighlight.com/v/ZJvgkIzYeuo?aiFormatted=false&language=en-US&mediaType=youtube&summaryId=hf7YfYsBsUrX9gQRVBAq&summaryType=default",
+        "domain": "videohighlight.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "gaia.com",
+        "url": "https://www.gaia.com/person/matias-de-stefano",
+        "domain": "gaia.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Ted_Chabasinski",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Childhood_schizophrenia",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "psychiatriki-journal.gr",
+        "url": "https://www.psychiatriki-journal.gr/documents/psychiatry/35.1-EN-2024.pdf",
+        "domain": "psychiatriki-journal.gr",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "astro.com",
+        "url": "https://www.astro.com/forarch/pdf/1232057280.pdf",
+        "domain": "astro.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Daniel_Paul_Schreber",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Stephen_Fleck",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Repressed_memory",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "es.wikipedia.org",
+        "url": "https://es.wikipedia.org/wiki/Ian_Stevenson",
+        "domain": "es.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "iasor.org",
+        "url": "https://iasor.org/wp-content/uploads/2024/03/TheMatrixofConsciounessFinalSubmission61520.pdf",
+        "domain": "iasor.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "www2.rivier.edu",
+        "url": "https://www2.rivier.edu/faculty/pcunningham/Research/Web%20Page%20Past-Life%20Experiences%204-29-11.pdf",
+        "domain": "www2.rivier.edu",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "comunidad.madrid",
+        "url": "https://www.comunidad.madrid/hospital/principeasturias/sites/principeasturias/files/inline-files/Mediavilla%20et%20al.%202021%20Compr%20Psychiatry.pdf",
+        "domain": "comunidad.madrid",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "wclc2018.iaslc.org",
+        "url": "https://wclc2018.iaslc.org/About/Resources/Documents/memorias_de_un_psiquiatra.pdf",
+        "domain": "wclc2018.iaslc.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "inmuebles.clarin.com",
+        "url": "https://www.inmuebles.clarin.com/departamento-en-venta-en-pilar-3-ambientes--18409775",
+        "domain": "inmuebles.clarin.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "inhus.conicet.gov.ar",
+        "url": "https://inhus.conicet.gov.ar/masculinidades-y-perspectiva-de-genero-debates-para-el-cambio-social/",
+        "domain": "inhus.conicet.gov.ar",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "inmuebles.clarin.com",
+        "url": "https://www.inmuebles.clarin.com/inmuebles/la-matanza",
+        "domain": "inmuebles.clarin.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "podscripts.co",
+        "url": "https://podscripts.co/podcasts/know-thyself/e18-matias-de-stefano-is-reincarnation-real-our-9-dimensional-reality-explained-from-memory",
+        "domain": "podscripts.co",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "caminoalregreso.org",
+        "url": "https://caminoalregreso.org/matias-de-stefano-kai-kryon-st-germain-testimonio/",
+        "domain": "caminoalregreso.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "kyawgyii.twstalker.com",
+        "url": "https://kyawgyii.twstalker.com/clarincom/status/2093356682944372959",
+        "domain": "kyawgyii.twstalker.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "redliess.com",
+        "url": "https://redliess.com/wp-content/uploads/2017/03/diversidad_sexual_y_convivencia.pdf",
+        "domain": "redliess.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "cumbreprosperidadpasion.com",
+        "url": "https://www.cumbreprosperidadpasion.com/",
+        "domain": "cumbreprosperidadpasion.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "staging2.infoturdominicano.com",
+        "url": "https://staging2.infoturdominicano.com/rd/barcelo-bavaro-convention-center-sede-de-la-i-conferencia-mundial-de-la-paz-y-de-la-luz-pax-et-lux-mundi/",
+        "domain": "staging2.infoturdominicano.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "biblioteca-repositorio.clacso.edu.ar",
+        "url": "https://biblioteca-repositorio.clacso.edu.ar/bitstream/CLACSO/253268/1/Entre-guerras-rio.pdf",
+        "domain": "biblioteca-repositorio.clacso.edu.ar",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "es.everand.com",
+        "url": "https://es.everand.com/book/523508346/Masculinidades-im-posibles-Violencia-y-genero-entre-el-poder-y-la-vulnerabilidad",
+        "domain": "es.everand.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "arcealejandra.blogspot.com",
+        "url": "https://arcealejandra.blogspot.com/2011/09/?m=0",
+        "domain": "arcealejandra.blogspot.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "sersaludblog.blogspot.com",
+        "url": "https://sersaludblog.blogspot.com/2012/",
+        "domain": "sersaludblog.blogspot.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "api.drum.lib.umd.edu",
+        "url": "https://api.drum.lib.umd.edu/server/api/core/bitstreams/2fde69bc-08d3-425f-be3e-6af6e1090c81/content",
+        "domain": "api.drum.lib.umd.edu",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "diocesisastorga.es",
+        "url": "https://www.diocesisastorga.es/recursos/publicaciones/dff73328c404abf6eb0704d1d74c8fa3.pdf",
+        "domain": "diocesisastorga.es",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "tiempoar.com.ar",
+        "url": "https://www.tiempoar.com.ar/wp-content/uploads/2021/04/900-1.pdf",
+        "domain": "tiempoar.com.ar",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "dspaceapi.live.udesa.edu.ar",
+        "url": "https://dspaceapi.live.udesa.edu.ar/server/api/core/bitstreams/beed8108-f937-4f73-93f1-7c494ab5624f/content",
+        "domain": "dspaceapi.live.udesa.edu.ar",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "arcealejandra.blogspot.com",
+        "url": "https://arcealejandra.blogspot.com/2011/06/httpwww.html?m=0",
+        "domain": "arcealejandra.blogspot.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "metacast.app",
+        "url": "https://metacast.app/podcast/know-thyself/iFg3wskZ/e18-matias-de-stefano-is-reincarnation-real-our-9-dimensional-reality-explained-from-memory/PTLoWzlw",
+        "domain": "metacast.app",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "products.thefourwinds.com",
+        "url": "https://products.thefourwinds.com/the-universe-within",
+        "domain": "products.thefourwinds.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "proassets.planetadelibros.com.ar",
+        "url": "https://proassets.planetadelibros.com.ar/usuaris/libros_contenido/arxius/50/49471_TPCW_Vivir%20en%20el%20universo.pdf",
+        "domain": "proassets.planetadelibros.com.ar",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "caminoalregreso.org",
+        "url": "https://caminoalregreso.org/matias-de-stefano-y-sus-activaciones-planetarias/",
+        "domain": "caminoalregreso.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "in5d.com",
+        "url": "https://in5d.com/transcription-total-recall-by-indigo-child-matias-de-stefano/",
+        "domain": "in5d.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "operationdisclosureofficial.com",
+        "url": "https://operationdisclosureofficial.com/2026/07/21/xspirit-the-story-that-could-rewrite-human-history/",
+        "domain": "operationdisclosureofficial.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "arcealejandra.blogspot.com",
+        "url": "https://arcealejandra.blogspot.com/2011/06/httpwww.html?m=1",
+        "domain": "arcealejandra.blogspot.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "matiasdestefano-blueprintofthebeing.com",
+        "url": "https://www.matiasdestefano-blueprintofthebeing.com/wp-content/uploads/2024/12/stm-en-k2-l1-preparation-sheet.pdf",
+        "domain": "matiasdestefano-blueprintofthebeing.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "chakaruna.com",
+        "url": "https://chakaruna.com/blogs/aubrey-marcus-podcast/re-membering-our-future-w-matias-de-stefano",
+        "domain": "chakaruna.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "tv.apple.com",
+        "url": "https://tv.apple.com/mx/show/matias-de-stefano-the-journey-of-remembering/umc.cmc.26o447ll75zflnqucuvrry6py?l=en",
+        "domain": "tv.apple.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "content.equisolve.net",
+        "url": "https://content.equisolve.net/_8a893afc37c1fea32f0c8124a5706290/gaia/news/2024-04-25_New_Season_of_Gaia_Original_Series_The_Journey_of__343.pdf",
+        "domain": "content.equisolve.net",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "es.wikipedia.org",
+        "url": "https://es.wikipedia.org/wiki/El_Recordador",
+        "domain": "es.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "observatoriodelainfancia.es",
+        "url": "https://www.observatoriodelainfancia.es/oia/esp/descargar.aspx?id=8114&tipo=documento",
+        "domain": "observatoriodelainfancia.es",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "wisdomsummit.net",
+        "url": "https://www.wisdomsummit.net/wp-content/uploads/2024/06/Tag-1-Workbook-Wisdom-Summit-24-.pdf",
+        "domain": "wisdomsummit.net",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "planetadelibrospe0.cdnstatics.com",
+        "url": "https://planetadelibrospe0.cdnstatics.com/libros_contenido_extra/50/49224_1_VIVIR_UNIVERSO-fragmento.pdf",
+        "domain": "planetadelibrospe0.cdnstatics.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "es.wikipedia.org",
+        "url": "https://es.wikipedia.org/wiki/Mat%C3%ADas_el_Ap%C3%B3stol",
+        "domain": "es.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "clarin.com",
+        "url": "https://www.clarin.com/sociedad/nino-indigo-historia-santafesino-recuerda-vidas-pasadas-fenomeno-masas_0_NP9kMN0O.html",
+        "domain": "clarin.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "open.spotify.com",
+        "url": "https://open.spotify.com/episode/2rGAeFx7aGjC3dDWNq6i7i",
+        "domain": "open.spotify.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "tapesearch.com",
+        "url": "https://www.tapesearch.com/episode/e18-mat%C3%ADas-de-stefano-is-reincarnation-real-our-9-dimensional-reality-explained-from-memory/bDH2absd8Jmth3r8NSju4u",
+        "domain": "tapesearch.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "podcasts.apple.com",
+        "url": "https://podcasts.apple.com/gb/podcast/e18-mat%C3%ADas-de-stefano-is-reincarnation-real-our-9/id1633725927?i=1000584678422",
+        "domain": "podcasts.apple.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "audible.com",
+        "url": "https://www.audible.com/es_US/podcast/E18-Matias-De-Stefano-Past-Lives-Atlantis-The-9-Dimensions-Explained/B0BL1W1HPZ",
+        "domain": "audible.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "listennotes.com",
+        "url": "https://www.listennotes.com/podcasts/know-thyself/e18-mat%C3%ADas-de-stefano-is-2oLWxJdfihw/",
+        "domain": "listennotes.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "music.amazon.de",
+        "url": "https://music.amazon.de/podcasts/08e9cf5f-3ac5-4986-b16e-28ceef2aa8c8/episodes/b11007bb-b2e6-43e1-894e-5523c5584d75/know-thyself-e18---mat%C3%ADas-de-stefano-is-reincarnation-real-our-9-dimensional-reality-explained-from-memory",
+        "domain": "music.amazon.de",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "share.snipd.com",
+        "url": "https://share.snipd.com/episode/89f2e276-8457-47f0-9fe0-09b71e08a596",
+        "domain": "share.snipd.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "entaksis.gr",
+        "url": "https://www.entaksis.gr/matias-de-stefano/",
+        "domain": "entaksis.gr",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "storytel.com",
+        "url": "https://www.storytel.com/se/books/e18-mat%C3%ADas-de-stefano-past-lives-atlantis-the-9-dimensions-explained-4390435",
+        "domain": "storytel.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "podme.com",
+        "url": "https://podme.com/no/podkast/rss-know-thyself-3/?page=22",
+        "domain": "podme.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "himalayanacademy.com",
+        "url": "https://www.himalayanacademy.com/media/books/know-thyself_ei/know-thyself_ei.pdf",
+        "domain": "himalayanacademy.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Reincarnation",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "arxiv.org",
+        "url": "https://arxiv.org/abs/2601.08972",
+        "domain": "arxiv.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Have_You_Lived_Before_This_Life",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Metempsychosis",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Supernatural",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Theosophy",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Past_life_regression",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "upload.wikimedia.org",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Reincarnation%3B_a_study_of_forgotten_truth_%28IA_reincarnationst00walk%29.pdf",
+        "domain": "upload.wikimedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "es.scribd.com",
+        "url": "https://es.scribd.com/document/489679201/Matias-de-Stefano-entrevista-Vivir-en-el-universo-2012",
+        "domain": "es.scribd.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/SpiritualAwakening/comments/xnk7sa",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "pt.scribd.com",
+        "url": "https://pt.scribd.com/document/881582718/Folha-de-Preparacao-Masterclasse-O-Universo-Dentro-Ti",
+        "domain": "pt.scribd.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/ReincarnationTruth/comments/1jm0cjm",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/ReincarnationTruth/comments/1k6shh1",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/ReincarnationTruth/comments/1jpkdun",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/ReincarnationTruth/comments/1jth4qm",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/ReincarnationTruth/comments/1jiljce",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/ReincarnationTruth/comments/1l25an2",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/ReincarnationTruth/comments/1k0bg2c",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/ReincarnationTruth/comments/1lcndae",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/spirituality/comments/1u8pnwy/removed/",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://www.reddit.com/r/awakened/comments/lczczi",
+        "domain": "reddit.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      }
+    ]
+  }
+}
