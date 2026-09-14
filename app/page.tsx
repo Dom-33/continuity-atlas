@@ -2,7 +2,7 @@
 
 import { useState, type FormEvent } from "react";
 import { validatedCases } from "@/data/cases";
-import type { AnalysisResult, EvidenceStatus, SourceTier, ValidatedCaseRecord } from "@/lib/schema";
+import type { AnalysisResult, EvidenceStatus, SourceRef, SourceTier, ValidatedCaseRecord } from "@/lib/schema";
 import styles from "./continuity.module.css";
 
 const statusLabel: Record<EvidenceStatus, string> = {
@@ -42,12 +42,7 @@ function formatReviewedDate(value: string) {
     : new Intl.DateTimeFormat("en", { year: "numeric", month: "short", day: "numeric" }).format(date);
 }
 
-function ExplanationBlock({
-  title,
-  assessment,
-  support,
-  limits,
-}: {
+function ExplanationBlock({ title, assessment, support, limits }: {
   title: string;
   assessment: string;
   support: string[];
@@ -57,23 +52,45 @@ function ExplanationBlock({
     <section className={styles.explanationBlock}>
       <h4>{title}</h4>
       <p>{assessment}</p>
-      {support.length ? (
-        <>
-          <h5>Support</h5>
-          <ul>
-            {support.map((item) => <li key={item}>{item}</li>)}
-          </ul>
-        </>
-      ) : null}
-      {limits.length ? (
-        <>
-          <h5>Limits</h5>
-          <ul>
-            {limits.map((item) => <li key={item}>{item}</li>)}
-          </ul>
-        </>
-      ) : null}
+      {support.length ? <><h5>Support</h5><ul>{support.map((item) => <li key={item}>{item}</li>)}</ul></> : null}
+      {limits.length ? <><h5>Limits</h5><ul>{limits.map((item) => <li key={item}>{item}</li>)}</ul></> : null}
     </section>
+  );
+}
+
+function SourcesBlock({ provenance }: { provenance: SourceRef[] }) {
+  const coreSources = provenance.filter((source) => source.usedInAnalysis && source.tier !== "weak");
+  const backgroundSources = provenance.filter((source) => !source.usedInAnalysis || source.tier === "weak");
+
+  return (
+    <>
+      <div className={styles.sourceHeader}>
+        <div><h4>Sources / Provenance</h4><p className={styles.muted}>Core sources are separated from material found during search but not relied on for the main analysis.</p></div>
+        <span className={styles.auditCount}>{provenance.length} discovered</span>
+      </div>
+      <h4 className={styles.sourceSectionTitle}>Core evidence sources</h4>
+      {coreSources.length ? (
+        <ol className={styles.sources}>{coreSources.map((source) => (
+          <li key={source.url}>
+            <div className={styles.sourceMeta}><span className={`${styles.sourceTier} ${styles[source.tier]}`}>{sourceTierLabel[source.tier]}</span><span>{source.domain}</span></div>
+            <a href={source.url} target="_blank" rel="noreferrer">{source.title}</a>
+            <span>{source.url}</span>
+          </li>
+        ))}</ol>
+      ) : <p className={styles.muted}>No high-confidence source was linked directly to the final analysis.</p>}
+      {backgroundSources.length ? (
+        <details className={styles.auditDetails}>
+          <summary>Full search audit · {backgroundSources.length} additional sources</summary>
+          <ol className={styles.sources}>{backgroundSources.map((source) => (
+            <li key={source.url}>
+              <div className={styles.sourceMeta}><span className={`${styles.sourceTier} ${styles[source.tier]}`}>{sourceTierLabel[source.tier]}</span><span>{source.domain}</span></div>
+              <a href={source.url} target="_blank" rel="noreferrer">{source.title}</a>
+              <span>{source.url}</span>
+            </li>
+          ))}</ol>
+        </details>
+      ) : null}
+    </>
   );
 }
 
@@ -101,7 +118,6 @@ export default function Home() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query: trimmed }),
       });
-
       const payload = await response.json();
       if (!response.ok) throw new Error(payload.error ?? "Analysis request failed.");
       setResult(payload as AnalysisResult);
@@ -122,7 +138,6 @@ export default function Home() {
       reviewNote: "Candidate exported from the Continuity Atlas review interface; commit only after human review.",
       analysis: result,
     };
-
     const blob = new Blob([JSON.stringify(record, null, 2)], { type: "application/json" });
     const url = URL.createObjectURL(blob);
     const anchor = document.createElement("a");
@@ -132,23 +147,14 @@ export default function Home() {
     URL.revokeObjectURL(url);
   }
 
-  const coreSources = result?.provenance.filter((source) => source.usedInAnalysis && source.tier !== "weak") ?? [];
-  const backgroundSources = result?.provenance.filter((source) => !source.usedInAnalysis || source.tier === "weak") ?? [];
-
   return (
     <main className={styles.page}>
       <header className={styles.hero}>
         <div className={styles.brandRow}>
           <div className={styles.mark}>CA</div>
-          <div>
-            <p className={styles.eyebrow}>GPT-6 Astra research prototype</p>
-            <h1>Continuity Atlas</h1>
-          </div>
+          <div><p className={styles.eyebrow}>GPT-6 Astra research prototype</p><h1>Continuity Atlas</h1></div>
         </div>
-        <p className={styles.lead}>
-          A comparative research system for reported continuity-across-lives cases.
-          It does not assume reincarnation is real; it tests competing explanations against the same evidence.
-        </p>
+        <p className={styles.lead}>A comparative research system for reported continuity-across-lives cases. It does not assume reincarnation is real; it tests competing explanations against the same evidence.</p>
         <div className={styles.hypotheses}>
           <div><span>H0</span><strong>Conventional explanation</strong><p>Contamination, suggestion, coincidence, development, culture, biology.</p></div>
           <div><span>H1</span><strong>Continuity hypothesis</strong><p>Residual information or traits not adequately explained by H0.</p></div>
@@ -171,13 +177,7 @@ export default function Home() {
         <aside className={styles.pipeline}>
           <p className={styles.sectionLabel}>Astra pipeline</p>
           <ol>
-            <li>Research public sources and preserve provenance</li>
-            <li>Extract into the 43-variable research schema</li>
-            <li>Separate documented fact, report, interpretation, and unknown</li>
-            <li>Evaluate conventional explanations</li>
-            <li>Evaluate continuity separately</li>
-            <li>Score evidence quality and anomaly</li>
-            <li>Compare cases and generate a testable next hypothesis</li>
+            <li>Research public sources and preserve provenance</li><li>Extract into the 43-variable research schema</li><li>Separate documented fact, report, interpretation, and unknown</li><li>Evaluate conventional explanations</li><li>Evaluate continuity separately</li><li>Score evidence quality and anomaly</li><li>Compare cases and generate a testable next hypothesis</li>
           </ol>
         </aside>
       </section>
@@ -197,10 +197,7 @@ export default function Home() {
             return (
               <details key={record.id} className={styles.corpusCase}>
                 <summary>
-                  <div>
-                    <strong>{analysis.caseTitle}</strong>
-                    <span>{analysis.scores.total}/20 · reviewed {formatReviewedDate(record.reviewedAt)}</span>
-                  </div>
+                  <div><strong>{analysis.caseTitle}</strong><span>{analysis.scores.total}/20 · reviewed {formatReviewedDate(record.reviewedAt)}</span></div>
                   <span className={styles.corpusOpenLabel}>Read analysis</span>
                 </summary>
                 <div className={styles.corpusCaseBody}>
@@ -208,36 +205,19 @@ export default function Home() {
                   <div className={styles.corpusAnalysisGrid}>
                     <section>
                       <h4>Case Evidence Map</h4>
-                      <div className={styles.evidenceList}>
-                        {analysis.evidence.map((item) => (
-                          <div key={`${record.id}-${item.label}-${item.value}`}>
-                            <span className={`${styles.status} ${styles[item.status]}`}>{statusLabel[item.status]}</span>
-                            <strong>{item.label}</strong>
-                            <p>{item.value}</p>
-                          </div>
-                        ))}
-                      </div>
+                      <div className={styles.evidenceList}>{analysis.evidence.map((item) => (
+                        <div key={`${record.id}-${item.label}-${item.value}`}><span className={`${styles.status} ${styles[item.status]}`}>{statusLabel[item.status]}</span><strong>{item.label}</strong><p>{item.value}</p></div>
+                      ))}</div>
                     </section>
                     <section>
-                      <h4>Competing Explanations</h4>
-                      <ExplanationBlock {...analysis.conventional} />
-                      <ExplanationBlock {...analysis.continuity} />
-                      <p className={styles.uncertainty}>{analysis.uncertainty}</p>
+                      <h4>Competing Explanations</h4><ExplanationBlock {...analysis.conventional} /><ExplanationBlock {...analysis.continuity} /><p className={styles.uncertainty}>{analysis.uncertainty}</p>
                     </section>
                   </div>
                   <div className={styles.corpusAnalysisGrid}>
-                    <section>
-                      <h4>Evidence score</h4>
-                      <div className={styles.scoreList}>{scoreLabels.map(([label, key]) => <div key={`${record.id}-${key}`}><span>{label}</span><strong>{analysis.scores[key]}/5</strong></div>)}</div>
-                    </section>
-                    <section>
-                      <h4>Cross-Case Patterns</h4>
-                      <ul className={styles.patterns}>{analysis.patterns.map((pattern) => <li key={`${record.id}-${pattern}`}>{pattern}</li>)}</ul>
-                      <h4>Next testable hypothesis</h4>
-                      <p>{analysis.nextHypothesis}</p>
-                    </section>
+                    <section><h4>Evidence score</h4><div className={styles.scoreList}>{scoreLabels.map(([label, key]) => <div key={`${record.id}-${key}`}><span>{label}</span><strong>{analysis.scores[key]}/5</strong></div>)}</div></section>
+                    <section><h4>Cross-Case Patterns</h4><ul className={styles.patterns}>{analysis.patterns.map((pattern) => <li key={`${record.id}-${pattern}`}>{pattern}</li>)}</ul><h4>Next testable hypothesis</h4><p>{analysis.nextHypothesis}</p></section>
                   </div>
-                  <p className={styles.corpusProvenanceNote}>{analysis.provenance.length} source records preserved in this validated analysis.</p>
+                  <section><SourcesBlock provenance={analysis.provenance} /></section>
                 </div>
               </details>
             );
@@ -247,16 +227,8 @@ export default function Home() {
 
       <section className={styles.outputs} aria-live="polite">
         <div className={styles.outputHeader}>
-          <div>
-            <p className={styles.sectionLabel}>Research output</p>
-            <h2>{result ? result.caseTitle : "Three auditable outputs"}</h2>
-          </div>
-          {result ? (
-            <div className={styles.outputActions}>
-              <button type="button" className={styles.exportButton} onClick={exportCandidate}>Export reviewed candidate</button>
-              <div className={styles.totalScore}>{result.scores.total}/20</div>
-            </div>
-          ) : null}
+          <div><p className={styles.sectionLabel}>Research output</p><h2>{result ? result.caseTitle : "Three auditable outputs"}</h2></div>
+          {result ? <div className={styles.outputActions}><button type="button" className={styles.exportButton} onClick={exportCandidate}>Export reviewed candidate</button><div className={styles.totalScore}>{result.scores.total}/20</div></div> : null}
         </div>
 
         {!result ? (
@@ -269,53 +241,14 @@ export default function Home() {
           <div className={styles.resultStack}>
             <p className={styles.summary}>{result.summary}</p>
             <div className={styles.resultGrid}>
-              <article className={styles.card}>
-                <h3>Case Evidence Map</h3>
-                <div className={styles.evidenceList}>
-                  {result.evidence.map((item) => (
-                    <div key={`${item.label}-${item.value}`}>
-                      <span className={`${styles.status} ${styles[item.status]}`}>{statusLabel[item.status]}</span>
-                      <strong>{item.label}</strong><p>{item.value}</p>
-                    </div>
-                  ))}
-                </div>
-              </article>
-              <article className={styles.card}>
-                <h3>Competing Explanations</h3>
-                <ExplanationBlock {...result.conventional} />
-                <ExplanationBlock {...result.continuity} />
-                <p className={styles.uncertainty}>{result.uncertainty}</p>
-              </article>
+              <article className={styles.card}><h3>Case Evidence Map</h3><div className={styles.evidenceList}>{result.evidence.map((item) => <div key={`${item.label}-${item.value}`}><span className={`${styles.status} ${styles[item.status]}`}>{statusLabel[item.status]}</span><strong>{item.label}</strong><p>{item.value}</p></div>)}</div></article>
+              <article className={styles.card}><h3>Competing Explanations</h3><ExplanationBlock {...result.conventional} /><ExplanationBlock {...result.continuity} /><p className={styles.uncertainty}>{result.uncertainty}</p></article>
             </div>
             <div className={styles.resultGrid}>
-              <article className={styles.card}>
-                <h3>Evidence score</h3>
-                <div className={styles.scoreList}>{scoreLabels.map(([label, key]) => <div key={key}><span>{label}</span><strong>{result.scores[key]}/5</strong></div>)}</div>
-                <p className={styles.note}>The score ranks evidential strength; it does not prove reincarnation.</p>
-              </article>
-              <article className={styles.card}>
-                <h3>Cross-Case Patterns</h3>
-                <ul className={styles.patterns}>{result.patterns.map((pattern) => <li key={pattern}>{pattern}</li>)}</ul>
-                <h4>Next testable hypothesis</h4><p>{result.nextHypothesis}</p>
-              </article>
+              <article className={styles.card}><h3>Evidence score</h3><div className={styles.scoreList}>{scoreLabels.map(([label, key]) => <div key={key}><span>{label}</span><strong>{result.scores[key]}/5</strong></div>)}</div><p className={styles.note}>The score ranks evidential strength; it does not prove reincarnation.</p></article>
+              <article className={styles.card}><h3>Cross-Case Patterns</h3><ul className={styles.patterns}>{result.patterns.map((pattern) => <li key={pattern}>{pattern}</li>)}</ul><h4>Next testable hypothesis</h4><p>{result.nextHypothesis}</p></article>
             </div>
-            <article className={styles.card}>
-              <div className={styles.sourceHeader}>
-                <div><h3>Sources / Provenance</h3><p className={styles.muted}>Core sources are separated from material found during search but not relied on for the main analysis.</p></div>
-                <span className={styles.auditCount}>{result.provenance.length} discovered</span>
-              </div>
-              <h4 className={styles.sourceSectionTitle}>Core evidence sources</h4>
-              {coreSources.length ? (
-                <ol className={styles.sources}>{coreSources.map((source) => (
-                  <li key={source.url}><div className={styles.sourceMeta}><span className={`${styles.sourceTier} ${styles[source.tier]}`}>{sourceTierLabel[source.tier]}</span><span>{source.domain}</span></div><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a><span>{source.url}</span></li>
-                ))}</ol>
-              ) : <p className={styles.muted}>No high-confidence source was linked directly to the final analysis.</p>}
-              {backgroundSources.length ? (
-                <details className={styles.auditDetails}><summary>Full search audit · {backgroundSources.length} additional sources</summary><ol className={styles.sources}>{backgroundSources.map((source) => (
-                  <li key={source.url}><div className={styles.sourceMeta}><span className={`${styles.sourceTier} ${styles[source.tier]}`}>{sourceTierLabel[source.tier]}</span><span>{source.domain}</span></div><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a><span>{source.url}</span></li>
-                ))}</ol></details>
-              ) : null}
-            </article>
+            <article className={styles.card}><SourcesBlock provenance={result.provenance} /></article>
           </div>
         )}
       </section>
