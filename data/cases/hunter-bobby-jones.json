@@ -1,0 +1,688 @@
+{
+  "id": "hunter-bobby-jones",
+  "status": "validated",
+  "reviewedAt": "2026-09-14T17:19:24.979Z",
+  "model": "gpt-6-astra",
+  "reviewNote": "Candidate exported from the Continuity Atlas review interface; commit only after human review.",
+  "analysis": {
+    "caseTitle": "Hunter / Bobby Jones",
+    "summary": "A childhood identity claim distinguished by reported golf talent, but substantially weakened by prior television exposure to Bobby Jones and parent-administered recognitions. The public record supports investigating the child's abilities more than concluding that he remembered Jones's life. Continuity is not established.",
+    "evidence": [
+      {
+        "label": "Identity and historical chronology",
+        "value": "Hunter is a pseudonym for a California child; his exact birth date was not established. Bobby Jones's death on December 18, 1971 is independently corroborated by a January 18, 1972 Congressional tribute. That verifies historical chronology, not a connection to Hunter.",
+        "status": "documented"
+      },
+      {
+        "label": "Onset and exposure sequence",
+        "value": "The retrospective account places plastic golf clubs at age two, sustained Golf Channel viewing afterward, and identification as Jones after watching television material about him while still two. Photo recognitions are described around age three. Interest reportedly preceded Jones-specific exposure; the named identity claim did not.",
+        "status": "reported"
+      },
+      {
+        "label": "Concrete claims and recognitions",
+        "value": "Hunter reportedly insisted on being called Bobby, selected Jones from six golfer photographs, and identified a photograph of Jones's childhood house as his home. Golf Digest attributes 'Harry Garden' and 'My friend' to him when viewing Harry Vardon. These are reported utterances, not independently authenticated recordings.",
+        "status": "reported"
+      },
+      {
+        "label": "Documentation timing and source dependence",
+        "value": "The principal account is Tucker's Return to Life, published December 3, 2013; secondary summaries reference pages 130–135 or 130–137. This review accessed bibliographic information, summaries and Tucker's later interview, not the complete original case file. No authenticated pre-exposure statement record or dated recognition protocol was located.",
+        "status": "documented"
+      },
+      {
+        "label": "Contamination channels and testing controls",
+        "value": "Jones appeared in television content before the identity claim. The father selected internet photographs and knew the target during testing. Thus ordinary recognition and inadvertent cueing remain available explanations; a six-picture selection is not a blinded experiment. The exact broadcasts and full testing sequence were not authenticated.",
+        "status": "interpreted"
+      },
+      {
+        "label": "Abilities and independent verification",
+        "value": "Published reporting credits Hunter with 41 wins in 50 junior tournaments, including 21 consecutive wins, by seven. Tucker separately says he saw childhood golf videos showing a smooth swing. Neither tournament scorecards linked confidentially to the child nor an independent, age-adjusted skill assessment were located. Video observation does not establish transferred ability.",
+        "status": "reported"
+      },
+      {
+        "label": "Practice, instruction and witnesses",
+        "value": "Accounts describe persistent practice, lessons before three and professional instruction around three-and-a-half. An instructor reportedly called him a prodigy; older golfers compared his front-leg movement with Jones's. These witness assessments are relayed through the narrative, without blinded biomechanical comparisons or separately authenticated testimony.",
+        "status": "reported"
+      },
+      {
+        "label": "Affect, preferences and physical traits",
+        "value": "Reported features include strong attachment to golf clubs, golf-course construction with blankets and a preference for Augusta National. The reviewed accounts do not establish a distinctive phobia, birthmark, congenital anomaly or other physical correspondence. Golf-related preferences are not independent of his substantial golf exposure.",
+        "status": "reported"
+      },
+      {
+        "label": "Errors and completeness",
+        "value": "No complete inventory of successes, mistakes, repetitions or untestable statements was located. 'Harry Garden' is an approximate name correspondence, not an exact identification. The house recognition lacks an accessible full trial record. An overall accuracy rate or chance probability cannot defensibly be calculated.",
+        "status": "unknown"
+      },
+      {
+        "label": "Time course and later follow-up",
+        "value": "References to Jones reportedly diminished between three and seven. In his later interview, Tucker said he had not heard from the father for several years and wanted further follow-up. That is not a documented adult outcome, repudiation or validation of the claim.",
+        "status": "reported"
+      },
+      {
+        "label": "Clinical evidence",
+        "value": "No Hunter-specific suspected or formal psychiatric diagnosis, authenticated clinical record, or clinician reassessment was located. Tucker's discussion of other psychological phenomena in the interview should not be attributed to Hunter. Imaginative identification is an explanatory possibility here, not a diagnosis.",
+        "status": "unknown"
+      }
+    ],
+    "conventional": {
+      "title": "H0 — Ordinary learning, talent and narrative development",
+      "assessment": "H0 is the better-supported working explanation: the documented narrative contains direct information exposure and extensive skill development, without requiring deception.",
+      "support": [
+        "Television supplied the proposed identity before the named claim; parent-run photograph selections did not exclude familiarity or cueing.",
+        "Practice and early instruction accompanied the reported talent, making later tournament success insufficient evidence of inherited past-life skills."
+      ],
+      "limits": [
+        "The precise source of the house selection and Vardon-like name remains unresolved; possible transmission is not proof of actual transmission.",
+        "The available record cannot quantify how exceptional his earliest ability was relative to similarly exposed children."
+      ]
+    },
+    "continuity": {
+      "title": "H1 — Continuity of Jones-related memory or aptitude",
+      "assessment": "Early aptitude combined with identity claims is compatible with H1, but compatibility does not distinguish continuity from ordinary learning and talent.",
+      "support": [
+        "Reported house recognition and approximate golfer naming are more specific than simply enjoying golf.",
+        "The account places strong golf interest before Jones-specific identification, while Tucker reports personally viewing evidence of childhood skill."
+      ],
+      "limits": [
+        "No authenticated, identity-specific knowledge recorded before relevant exposure was established.",
+        "Talent is not uniquely diagnostic of Jones, and reported swing resemblance was not tested blindly.",
+        "Recognition claims, preferences and skill cannot be treated as independent evidence when they share the same exposure history."
+      ]
+    },
+    "scores": {
+      "informationStrength": 2,
+      "sourceQuality": 2,
+      "lowContamination": 0,
+      "anomalyStrength": 1,
+      "total": 5
+    },
+    "patterns": [
+      "Documentation pattern shared with the supplied Leininger and Swarnlata cases: recording or testing after relevant exposure cannot establish information acquisition before exposure. This is a methodological similarity, not evidence of a shared paranormal cause."
+    ],
+    "nextHypothesis": "Test whether any Jones-specific information demonstrably preceded exposure: obtain consent-based access to dated family correspondence, original videos, broadcast content and complete photograph trials. Separately authenticate tournament results and have blinded experts compare early swings against multiple golfers and age-matched children.",
+    "uncertainty": "Research located investigator testimony, a published-book trail and derivative case summaries, but not authenticated early records, full testing materials or independently checked competitive results. The evidence cannot decisively discriminate H0 from H1; they are not equally supported. The 5/20 score ranks evidential strength, not reincarnation probability. Residual anomaly denotes unresolved reports, not a demonstrated paranormal effect.",
+    "provenance": [
+      {
+        "title": "psi-encyclopedia.spr.ac.uk",
+        "url": "https://psi-encyclopedia.spr.ac.uk/articles/american-children-past-life-memories/",
+        "domain": "psi-encyclopedia.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "psi-encyclopedia.spr.ac.uk",
+        "url": "https://psi-encyclopedia.spr.ac.uk/articles/behavioural-memories-reincarnation-cases/",
+        "domain": "psi-encyclopedia.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "books.google.com",
+        "url": "https://books.google.com/books/about/Return_to_Life.html?id=tRw5AAAAQBAJ",
+        "domain": "books.google.com",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "batgap.com",
+        "url": "https://batgap.com/jim-tucker-transcript/",
+        "domain": "batgap.com",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "Is California youngster the reincarnation of Bobby Jones? | Golf News and Tour Information | Golf Digest",
+        "url": "https://www.golfdigest.com/story/is-california-youngster-the-reincarnation-of-bobby-jones?utm_source=openai",
+        "domain": "golfdigest.com",
+        "tier": "secondary",
+        "usedInAnalysis": true
+      },
+      {
+        "title": "govinfo.gov",
+        "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1972-pt1/pdf/GPO-CRECB-1972-pt1-1-3.pdf",
+        "domain": "govinfo.gov",
+        "tier": "primary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "nps.gov",
+        "url": "https://www.nps.gov/npgallery/GetAsset/040410ec631a46fbaeac6e2f8c7fa886/original",
+        "domain": "nps.gov",
+        "tier": "primary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "link.springer.com",
+        "url": "https://link.springer.com/book/10.1007/978-3-319-64976-4",
+        "domain": "link.springer.com",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "bov.virginia.edu",
+        "url": "https://bov.virginia.edu/sites/g/files/jsddwu1171/files/2023-03/%2718%20MARCH%20FULL%20BOARD%20MINUTES_0.pdf",
+        "domain": "bov.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "mediastudies.as.virginia.edu",
+        "url": "https://mediastudies.as.virginia.edu/editorial-staff",
+        "domain": "mediastudies.as.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "med.virginia.edu",
+        "url": "https://med.virginia.edu/biomedical-ethics/wp-content/uploads/sites/129/2020/02/CHHE-Report-Jan-2020.pdf",
+        "domain": "med.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "registrar.virginia.edu",
+        "url": "https://registrar.virginia.edu/sites/ureg/files/2018-2019%20List%20of%20Distinguished%20Students.pdf",
+        "domain": "registrar.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "statistics.as.virginia.edu",
+        "url": "https://statistics.as.virginia.edu/sites/statistics.as.virginia.edu/files/2023-10/Graduation%20Program%202021.pdf",
+        "domain": "statistics.as.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "drama.virginia.edu",
+        "url": "https://drama.virginia.edu/sites/drama.as.virginia.edu/files/inline-files/Fall%20Festival%20Playbill.pdf",
+        "domain": "drama.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "annualreport.education.virginia.edu",
+        "url": "https://annualreport.education.virginia.edu/2023/honor-roll",
+        "domain": "annualreport.education.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "news.virginia.edu",
+        "url": "https://news.virginia.edu/uva-news?page=2534",
+        "domain": "news.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "news.virginia.edu",
+        "url": "https://news.virginia.edu/node/354811",
+        "domain": "news.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "news.virginia.edu",
+        "url": "https://news.virginia.edu/content/all-news?category%5B0%5D=187&page=75",
+        "domain": "news.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "news.darden.virginia.edu",
+        "url": "https://news.darden.virginia.edu/2022/11/21/memorial-for-dsean-perry-lavel-davis-jr-devin-chandler/",
+        "domain": "news.darden.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "giving.virginia.edu",
+        "url": "https://giving.virginia.edu/contact/",
+        "domain": "giving.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "giving.darden.virginia.edu",
+        "url": "https://giving.darden.virginia.edu/impact-recognition/principal-donors-society",
+        "domain": "giving.darden.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "english.as.virginia.edu",
+        "url": "https://english.as.virginia.edu/people/john-obrien",
+        "domain": "english.as.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "engineering.virginia.edu",
+        "url": "https://engineering.virginia.edu/labs-groups/multiscale-muscle-mechanophysiology-m3-lab/team/alumni",
+        "domain": "engineering.virginia.edu",
+        "tier": "academic",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "golfdigest.com",
+        "url": "https://www.golfdigest.com/story/is-california-youngster-the-reincarnation-of-bobby-jones",
+        "domain": "golfdigest.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "psi-encyclopedia.spr.ac.uk",
+        "url": "https://psi-encyclopedia.spr.ac.uk/articles/jim-b-tucker/",
+        "domain": "psi-encyclopedia.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "open-data.spr.ac.uk",
+        "url": "https://open-data.spr.ac.uk/articles/reincarnation-fraud-and-self-deception/",
+        "domain": "open-data.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "psi-encyclopedia.spr.ac.uk",
+        "url": "https://psi-encyclopedia.spr.ac.uk/sites/default/files/ebook/article/american_children_with_past-life_memories-715.pdf",
+        "domain": "psi-encyclopedia.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "psi-encyclopedia.spr.ac.uk",
+        "url": "https://psi-encyclopedia.spr.ac.uk/sites/default/files/ebook/article/american_children_who_recall_previous_lives-715.pdf",
+        "domain": "psi-encyclopedia.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "coasttocoastam.com",
+        "url": "https://www.coasttocoastam.com/show/2013-12-22-show/",
+        "domain": "coasttocoastam.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "open-data.spr.ac.uk",
+        "url": "https://open-data.spr.ac.uk/sites/default/files/ebook/article/american_children_with_past-life_memories-715.pdf",
+        "domain": "open-data.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "psi-encyclopedia.spr.ac.uk",
+        "url": "https://psi-encyclopedia.spr.ac.uk/sites/default/files/ebook/article/tucker_jim_b-728.pdf",
+        "domain": "psi-encyclopedia.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Jim_B._Tucker",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "open-data.spr.ac.uk",
+        "url": "https://open-data.spr.ac.uk/articles/reincarnation-cases-records-made-verifications/",
+        "domain": "open-data.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "us.macmillan.com",
+        "url": "https://us.macmillan.com/books/9781250502407/returntolife/",
+        "domain": "us.macmillan.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "open-data.spr.ac.uk",
+        "url": "https://open-data.spr.ac.uk/articles/james-leininger-reincarnation-case/",
+        "domain": "open-data.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Twenty_Cases_Suggestive_of_Reincarnation",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "the-formula.org",
+        "url": "https://the-formula.org/reincarnation/",
+        "domain": "the-formula.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "open-data.spr.ac.uk",
+        "url": "https://open-data.spr.ac.uk/sites/default/files/ebook/article/behavioural_memories_in_reincarnation_cases-439.pdf",
+        "domain": "open-data.spr.ac.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Jim_Tucker",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Life_Before_Life",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Parapsychology",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Ian_Stevenson",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Bobby_Jones_%28golfer%29",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "latimes.com",
+        "url": "https://www.latimes.com/archives/la-xpm-2002-apr-08-sp-masters08-story.html",
+        "domain": "latimes.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "booksofmyheart.net",
+        "url": "https://booksofmyheart.net/2018/09/22/the-storm-by-elizabeth-hunter/",
+        "domain": "booksofmyheart.net",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "pgatourmedia.pgatourhq.com",
+        "url": "https://pgatourmedia.pgatourhq.com/static-assets/page/files/tours/2019/pgatour/masterstournament/eventMediaGuide/Media_Guide.pdf",
+        "domain": "pgatourmedia.pgatourhq.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "documents.adventistarchives.org",
+        "url": "https://documents.adventistarchives.org/Periodicals/AAR/AAR19710315-V75-11.pdf",
+        "domain": "documents.adventistarchives.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "golfdigest.com",
+        "url": "https://www.golfdigest.com/story/the-last-days-of-bobby-jones",
+        "domain": "golfdigest.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "bobbyjones.org",
+        "url": "https://bobbyjones.org/about-bobby-jones/history",
+        "domain": "bobbyjones.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "ramblinwreck.com",
+        "url": "https://ramblinwreck.com/wp-content/uploads/2024/09/2024-25-GTGOLF-Information-Guide.pdf",
+        "domain": "ramblinwreck.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "golftoday.co.uk",
+        "url": "https://golftoday.co.uk/bob-jones-master-of-the-masters/",
+        "domain": "golftoday.co.uk",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "espritgolf.net",
+        "url": "https://espritgolf.net/masters/column/bobby-jones-2/",
+        "domain": "espritgolf.net",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "scope.scholastic.com",
+        "url": "https://scope.scholastic.com/issues/2023-24/020124/into-the-underworld.html",
+        "domain": "scope.scholastic.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "newyorker.com",
+        "url": "https://www.newyorker.com/magazine/1984/05/28/the-masters-2",
+        "domain": "newyorker.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "mgahonors.org",
+        "url": "https://mgahonors.org/honorees/bobby-jones-2021/",
+        "domain": "mgahonors.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "encyclopedia.com",
+        "url": "https://www.encyclopedia.com/people/sports-and-games/sports-biographies/bobby-jones",
+        "domain": "encyclopedia.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "bookgirl.beautyandlace.net",
+        "url": "https://bookgirl.beautyandlace.net/book-club-daughter-of-the-hunter-valley/comment-page-1",
+        "domain": "bookgirl.beautyandlace.net",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "fr.wikipedia.org",
+        "url": "https://fr.wikipedia.org/wiki/Bobby_Jones_%28golf%29",
+        "domain": "fr.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "de.wikipedia.org",
+        "url": "https://de.wikipedia.org/wiki/Bobby_Jones",
+        "domain": "de.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "es.wikipedia.org",
+        "url": "https://es.wikipedia.org/wiki/Bobby_Jones_%28golfista%29",
+        "domain": "es.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "golfmonthly.com",
+        "url": "https://www.golfmonthly.com/features/story-masters-legend-found-dead-at-augusta-national",
+        "domain": "golfmonthly.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "pt.wikipedia.org",
+        "url": "https://pt.wikipedia.org/wiki/Bobby_Jones",
+        "domain": "pt.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "it.wikipedia.org",
+        "url": "https://it.wikipedia.org/wiki/Bobby_Jones_%28golfista%29",
+        "domain": "it.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "shari-harris.com",
+        "url": "https://shari-harris.com/onewebmedia/Notes_2Bfrom_2BReturn_2Bto_2BLife.pdf",
+        "domain": "shari-harris.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "raafay-awan.blogspot.com",
+        "url": "https://raafay-awan.blogspot.com/2014/06/return-to-life-extraordinary-cases-of.html",
+        "domain": "raafay-awan.blogspot.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "mahoningvalley-speedway.com",
+        "url": "https://www.mahoningvalley-speedway.com/2020-results--recap.html",
+        "domain": "mahoningvalley-speedway.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "etypeproductionstorage1.blob.core.windows.net",
+        "url": "https://etypeproductionstorage1.blob.core.windows.net/%24web/Production_Prod/Jobs/116/2020-12-17/98122/PreProcessedPDF/clb_95701_prep_20201217141659508.pdf",
+        "domain": "etypeproductionstorage1.blob.core.windows.net",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "site236.com",
+        "url": "https://site236.com/wp-content/uploads/sites/6/2023/03/2022-2023-Lodge-Planbook-1.pdf",
+        "domain": "site236.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "waswirnichtwissen.wordpress.com",
+        "url": "https://waswirnichtwissen.wordpress.com/tag/wiedergeburt/",
+        "domain": "waswirnichtwissen.wordpress.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "floridalegion.org",
+        "url": "https://www.floridalegion.org/wp-content/uploads/2020/08/2019-TAC-Manual-2019-Edition.pdf",
+        "domain": "floridalegion.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "unitedwayokc.org",
+        "url": "https://www.unitedwayokc.org/wp-content/uploads/2023/06/UNI_23-M1-UW-003-22-23_Leadership-Registry.pdf",
+        "domain": "unitedwayokc.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "podcasts.apple.com",
+        "url": "https://podcasts.apple.com/zw/podcast/mario-nawfal/id1846542928",
+        "domain": "podcasts.apple.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "speedwaydigest.com",
+        "url": "https://speedwaydigest.com/index.php/news/speedway-news/43617-bobby-jones-makes-it-two-in-a-row-after-wild-outcome-in-ward-crozier-sr-memorial/",
+        "domain": "speedwaydigest.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "alobacsi.com",
+        "url": "https://alobacsi.com/nhung-cau-be-co-kha-nang-nho-chuyen-kiep-truoc.html",
+        "domain": "alobacsi.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "sport.sky.it",
+        "url": "https://sport.sky.it/nba/2019/08/12/nba-iniziali-nome-cognome-giocatori/amp",
+        "domain": "sport.sky.it",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "iheart.com",
+        "url": "https://www.iheart.com/podcast/1119-shades-of-the-afterlife-72830128/episode/episode-126-mom-i-was-your-110861315/",
+        "domain": "iheart.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "mahoningvalley-speedway.com",
+        "url": "https://www.mahoningvalley-speedway.com/2019-results--recap.html",
+        "domain": "mahoningvalley-speedway.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "mahoningvalley-speedway.com",
+        "url": "https://www.mahoningvalley-speedway.com/2018-results--recap.html",
+        "domain": "mahoningvalley-speedway.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Scott_Porter",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "virginiasports.com",
+        "url": "https://virginiasports.com/news/2025/04/7/uva-athletics-adapting-to-changing-landscape",
+        "domain": "virginiasports.com",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/List_of_University_of_Virginia_people",
+        "domain": "en.wikipedia.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "arxiv.org",
+        "url": "https://arxiv.org/abs/1905.12053",
+        "domain": "arxiv.org",
+        "tier": "secondary",
+        "usedInAnalysis": false
+      },
+      {
+        "title": "scribd.com",
+        "url": "https://www.scribd.com/document/872246825/William-Bascom-African-Dilemma-Tales-De-Gruyter-Mouton-1975",
+        "domain": "scribd.com",
+        "tier": "weak",
+        "usedInAnalysis": false
+      }
+    ]
+  }
+}
